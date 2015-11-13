@@ -1,0 +1,30 @@
+
+task findingrobot()
+{
+PlayTone(932,1000);
+Wait(4000);
+StopSound();
+float distance=SensorUS(S1);
+int x=SensorHTColorNum(S2);
+while(true)
+{
+if (x=17){
+OnFwd(OUT_AC,-100);
+Wait(1000);
+}
+if(distance<50){    //by setting distance to be this far, spinning will definitely find robot
+OnFwd(OUT_AC,100);
+}
+else{
+OnFwd(OUT_A,75);    //spinning to find robot
+}
+}
+}
+
+task main()
+{
+SetSensorLowspeed(S1,S2);
+SetSensorUltrasonic(S1);
+SetSensorType(S2,SENSOR_TYPE_LOWSPEED);
+Precedes(findingrobot);
+}

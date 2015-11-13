@@ -1,0 +1,10 @@
+task main(){
+//repeat (4)
+//{
+OnFwd(OUT_A,75);
+Wait(500);
+OnRev(OUT_A,75);
+Wait(500);
+//}
+Off(OUT_A);
+}

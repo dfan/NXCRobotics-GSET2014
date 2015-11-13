@@ -1,0 +1,611 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__RLSBmutex0	9	0	0	4	2
+1	__signed_stack_002movinguntilsensor	6	1	4	4	2
+2	__signed_stack_001movinguntilsensor	6	1	8	4	10
+3	__CLSCSMutex3	9	0	12	4	2
+4	__CLSRMutex0	9	0	16	4	2
+5	__CLSCSMutex1	9	0	20	4	2
+6	__CLSCSMutex2	9	0	24	4	2
+7	__signed_stack_001backaway	6	1	28	4	4
+8	__D0movinguntilsensor	6	1	32	4	42
+9	__D0SetSensorLowspeed_inline_main	6	1	36	4	3
+10	__DU0SetSensorLowspeed_inline_main	5	1	40	4	2
+11	__D0SetSensorLowspeed_inline_movinguntilsensor	6	1	44	4	3
+12	__WDSCmutex	9	0	48	4	2
+13	__DU0SetSensorLowspeed_inline_movinguntilsensor	5	1	52	4	2
+14	__D0backaway	6	1	56	4	14
+15	__CLSCSMutex0	9	0	60	4	4
+16	__OnRevMutex	9	0	64	4	12
+17	__ResetSensorMutex	9	0	68	4	16
+18	__CLSWMutex0	9	0	72	4	2
+19	__movinguntilsensor_7qG2_dir_7qG2_000	4	1	76	2	4
+20	__zfSetSensorLowspeed_inline_movinguntilsensor	1	1	78	1	2
+21	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	79	1	2
+22	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	80	1	4
+23	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	81	1	2
+24	__zfSetSensorLowspeed_inline_main	1	1	82	1	2
+25	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	83	1	2
+26	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	84	1	8
+27	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	85	1	2
+28	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	86	1	2
+29	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	87	1	2
+30	__constVal73	2	0	88	1	1
+31	____initialize_global_data_return	1	1	89	1	3
+32	__SetSensorTouch_7qG2_port_7qG2_000_inline_movinguntilsensor	1	1	90	1	8
+33	__constVal96	2	0	91	1	14
+34	__constVal63	2	0	92	1	14
+35	__SetSensorTouch_7qG2_port_7qG2_000_inline_backaway	1	1	93	1	8
+36	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	94	1	2
+37	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	95	1	2
+38	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_movinguntilsensor	1	1	96	1	2
+39	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor	1	1	97	1	4
+40	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	98	1	2
+41	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	99	1	2
+42	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	100	1	2
+43	____ReadLSBytes0_return	1	1	101	1	3
+44	____ResetSensorSubroutine_return	1	1	102	1	10
+45	__ResetSensorTmp	1	1	103	1	2
+46	__RLSBIterations0	1	1	104	1	4
+47	__RLSBytesCount0	1	1	105	1	7
+48	__RLSBResult0	2	1	106	1	7
+49	__constVal1	2	0	107	1	16
+50	__constVal32	2	0	108	1	48
+51	__OnRev_Tmp	2	1	109	1	12
+52	__ResetSensorPort	1	1	110	1	10
+53	__constVal3	2	0	111	1	16
+54	__constVal0	2	1	112	1	46
+55	__WDSC_LSStatus	2	1	113	1	3
+56	__WDSC_SensorRegister	1	1	114	1	2
+57	__WDSC_SensorAddress	1	1	115	1	2
+58	____MSWriteBytesSub_return	1	1	116	1	3
+59	__zfmovinguntilsensor	1	1	117	1	18
+60	__zfbackaway	1	1	118	1	6
+61	__constVal16	2	0	119	1	2
+62	__WDSC_Port	1	1	120	1	3
+63	__constVal2	2	0	121	1	8
+64	__WDSC_lswArgs	8	0	4	12	4
+65	__WDSC_lswArgs.Result	2	1	124	1	4
+66	__WDSC_lswArgs.Port	1	1	125	1	4
+67	__WDSC_lswArgs.Buffer	7	0	126	4	4
+68	__WDSC_lswArgs.Buffer.Buffer_type	1	0	0	1	0
+69	__WDSC_lswArgs.ReturnLen	1	1	128	1	4
+70	__CLSWArgs0	8	0	4	12	5
+71	__CLSWArgs0.Result	2	1	132	1	5
+72	__CLSWArgs0.Port	1	1	133	1	5
+73	__CLSWArgs0.Buffer	7	0	134	4	5
+74	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+75	__CLSWArgs0.ReturnLen	1	1	136	1	5
+76	__CLSCSArgs0	8	0	3	4	7
+77	__CLSCSArgs0.Result	2	1	140	1	7
+78	__CLSCSArgs0.Port	1	1	141	1	7
+79	__CLSCSArgs0.BytesReady	1	1	142	1	7
+80	__CLSRArgs0	8	0	4	12	5
+81	__CLSRArgs0.Result	2	1	144	1	5
+82	__CLSRArgs0.Port	1	1	145	1	5
+83	__CLSRArgs0.Buffer	7	0	146	4	5
+84	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+85	__CLSRArgs0.BufferLen	1	1	148	1	5
+86	__OUT_BC	7	0	150	4	1
+87	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+88	__RLSReadBuf0	7	0	152	4	8
+89	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+90	__WDSC_WriteBytes	7	0	154	4	2
+91	__WDSC_WriteBytes.__WDSC_WriteBytes_type	1	0	0	1	0
+92	__RLSLastGoodRead0	7	0	156	4	2
+93	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	85	0	#line 85 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	86	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	85	2	#line 85 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	86	2	#line 86 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	86	2	#line 86 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	86	2	#line 86 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	87	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	86	5	#line 86 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	87	5	#line 87 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	88	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __005__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3761	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	42	#line 3760 "NXCDefs.h"
+0	3694	42	#line 3694 "NXCDefs.h"
+0	3695	42	#pragma macro 4
+0	3695	42		acquire __ResetSensorMutex
+0	3695	43		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main
+0	3695	45		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3695	47		release __ResetSensorMutex
+0	6749	48	#line 6749 "NXCDefs.h"
+0	3694	48	#line 3694 "NXCDefs.h"
+0	3761	48	#line 3761 "NXCDefs.h"
+0	87	48	#line 87 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	87	48	#line 87 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	88	48		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 2
+0	87	51	#line 87 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	3718	51	#line 3718 "NXCDefs.h"
+0	3719	51	#pragma macro 6
+0	3719	51		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	55		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	59		acquire __ResetSensorMutex
+0	3719	60		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	62		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3719	64		release __ResetSensorMutex
+0	6764	65	#line 6764 "NXCDefs.h"
+0	3718	65	#line 3718 "NXCDefs.h"
+0	87	65	#line 87 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	87	65	#line 87 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	88	65		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 3
+0	87	68	#line 87 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	3718	68	#line 3718 "NXCDefs.h"
+0	3719	68	#pragma macro 6
+0	3719	68		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	72		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	76		acquire __ResetSensorMutex
+0	3719	77		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	79		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3719	81		release __ResetSensorMutex
+0	6774	82	#line 6774 "NXCDefs.h"
+0	3718	82	#line 3718 "NXCDefs.h"
+0	88	82	#line 88 "C:\Users\owner\Documents\RobotFinal.nxc"
+0	89	82		exit 0, 1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5672	0	#pragma macro 25
+2	5672	0		acquire __CLSWMutex0
+2	5672	1		set __CLSWArgs0.Port, 0
+2	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	5672	8		syscall 21, __CLSWArgs0
+2	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+2	5672	13		release __CLSWMutex0
+2	5673	14	#line 5673 "NXTDefs.h"
+2	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+2	5677	24		set __RLSBIterations0, 4
+2	5679	27	#pragma macro 23
+2	5679	27		acquire __CLSCSMutex0
+2	5679	28		set __CLSCSArgs0.Port, 0
+2	5679	31		syscall 23, __CLSCSArgs0
+2	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+2	5679	38		release __CLSCSMutex0
+2	5679	39	#line 5679 "NXTDefs.h"
+2	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+2	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+2	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	5685	52		wait 15
+2	5686	54		jmp __RLSBDoCheckStatus0
+2	5689	56	#pragma macro 25
+2	5689	56		acquire __CLSRMutex0
+2	5689	57		set __CLSRArgs0.Port, 0
+2	5689	60		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	5689	62		syscall 22, __CLSRArgs0
+2	5689	65		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	5689	67		mov __RLSBResult0, __CLSRArgs0.Result
+2	5689	69		release __CLSRMutex0
+2	5689	70	#line 5689 "NXTDefs.h"
+2	5690	70		brtst 5, __RLSBError0, __RLSBResult0
+2	5691	73		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	5692	75		jmp __RLSBDone0
+2	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	5698	82		subret ____ReadLSBytes0_return
+3	11554	0		mov __WDSC_lswArgs.Port, __WDSC_Port
+3	11555	2		arrbuild __WDSC_lswArgs.Buffer, __WDSC_SensorAddress, __WDSC_SensorRegister, __WDSC_WriteBytes
+3	11556	8		set __WDSC_lswArgs.ReturnLen, 0
+3	11557	11		syscall 21, __WDSC_lswArgs
+3	11559	14	#pragma macro 21
+3	11559	14		acquire __CLSCSMutex0
+3	11559	15		acquire __CLSCSMutex1
+3	11559	16		acquire __CLSCSMutex2
+3	11559	17		acquire __CLSCSMutex3
+3	11559	18		mov __CLSCSArgs0.Port, __WDSC_Port
+3	11559	20		syscall 23, __CLSCSArgs0
+3	11559	23		mov __WDSC_LSStatus, __CLSCSArgs0.Result
+3	11559	25		release __CLSCSMutex0
+3	11559	26		release __CLSCSMutex1
+3	11559	27		release __CLSCSMutex2
+3	11559	28		release __CLSCSMutex3
+3	11559	29	#line 11559 "NXTDefs.h"
+3	11560	29		brtst 1, __WDSC_StatusLoop, __WDSC_LSStatus
+3	11561	32		subret ____MSWriteBytesSub_return
+4	3	0	#line 3 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	4	0		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor, 0
+4	3	3	#line 3 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	4	3	#line 4 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	5	3		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_movinguntilsensor, __constVal1
+4	3758	5	#line 3758 "NXCDefs.h"
+4	3759	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor
+4	3758	7	#line 3758 "NXCDefs.h"
+4	3758	7	#line 3758 "NXCDefs.h"
+4	3759	7		mov __DU0SetSensorLowspeed_inline_movinguntilsensor, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_movinguntilsensor
+4	3758	9	#line 3758 "NXCDefs.h"
+4	3759	9		tst 5, __zfSetSensorLowspeed_inline_movinguntilsensor, __DU0SetSensorLowspeed_inline_movinguntilsensor
+4	3758	12	#line 3758 "NXCDefs.h"
+4	3759	12		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_movinguntilsensor
+4	3758	15	#line 3758 "NXCDefs.h"
+4	3759	15		set __D0SetSensorLowspeed_inline_movinguntilsensor, 11
+4	3758	18	#line 3758 "NXCDefs.h"
+4	3759	18		jmp __004__NXC_Label_37
+4	3758	20	#line 3758 "NXCDefs.h"
+4	3759	20		set __D0SetSensorLowspeed_inline_movinguntilsensor, 10
+4	3758	23	#line 3758 "NXCDefs.h"
+4	3759	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __D0SetSensorLowspeed_inline_movinguntilsensor
+4	3663	25	#line 3663 "NXCDefs.h"
+4	3664	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, 0
+4	3663	29	#line 3663 "NXCDefs.h"
+4	3759	29	#line 3759 "NXCDefs.h"
+4	3759	29	#line 3759 "NXCDefs.h"
+4	3760	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor
+4	3759	31	#line 3759 "NXCDefs.h"
+4	3759	31	#line 3759 "NXCDefs.h"
+4	3760	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, 0
+4	3759	34	#line 3759 "NXCDefs.h"
+4	3676	34	#line 3676 "NXCDefs.h"
+4	3677	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, 1
+4	3676	38	#line 3676 "NXCDefs.h"
+4	3760	38	#line 3760 "NXCDefs.h"
+4	3760	38	#line 3760 "NXCDefs.h"
+4	3761	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor
+4	3760	40	#line 3760 "NXCDefs.h"
+4	3694	40	#line 3694 "NXCDefs.h"
+4	3695	40	#pragma macro 4
+4	3695	40		acquire __ResetSensorMutex
+4	3695	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor
+4	3695	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	3695	45		release __ResetSensorMutex
+4	6344	46	#line 6344 "NXCDefs.h"
+4	3694	46	#line 3694 "NXCDefs.h"
+4	3761	46	#line 3761 "NXCDefs.h"
+4	4	46	#line 4 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	4	46	#line 4 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	5	46		set __SetSensorTouch_7qG2_port_7qG2_000_inline_movinguntilsensor, 2
+4	4	49	#line 4 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	3718	49	#line 3718 "NXCDefs.h"
+4	3719	49	#pragma macro 6
+4	3719	49		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_movinguntilsensor, 0
+4	3719	53		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_movinguntilsensor, 1
+4	3719	57		acquire __ResetSensorMutex
+4	3719	58		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_movinguntilsensor
+4	3719	60		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	3719	62		release __ResetSensorMutex
+4	6359	63	#line 6359 "NXCDefs.h"
+4	3718	63	#line 3718 "NXCDefs.h"
+4	5	63	#line 5 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	5	63	#line 5 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	6	63		set __SetSensorTouch_7qG2_port_7qG2_000_inline_movinguntilsensor, 3
+4	5	66	#line 5 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	3718	66	#line 3718 "NXCDefs.h"
+4	3719	66	#pragma macro 6
+4	3719	66		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_movinguntilsensor, 0
+4	3719	70		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_movinguntilsensor, 1
+4	3719	74		acquire __ResetSensorMutex
+4	3719	75		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_movinguntilsensor
+4	3719	77		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	3719	79		release __ResetSensorMutex
+4	6369	80	#line 6369 "NXCDefs.h"
+4	3718	80	#line 3718 "NXCDefs.h"
+4	7	80	#line 7 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	7	80	#line 7 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	8	80	#pragma macro 8
+4	8	80		acquire __WDSCmutex
+4	8	81		mov __WDSC_Port, __constVal0
+4	8	83		mov __WDSC_SensorAddress, __constVal16
+4	8	85		set __WDSC_SensorRegister, 65
+4	8	88		arrbuild __WDSC_WriteBytes, __constVal0
+4	8	92		subcall __MSWriteBytesSub, ____MSWriteBytesSub_return
+4	8	94		mov __D0movinguntilsensor, __WDSC_LSStatus
+4	8	96		release __WDSCmutex
+4	6373	97	#line 6373 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	7	97	#line 7 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	7	97	#line 7 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	9	97	#line 9 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	10	97		set __D0movinguntilsensor, 1
+4	13	100	#line 13 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	14	100		tst 5, __zfmovinguntilsensor, __D0movinguntilsensor
+4	13	103	#line 13 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	14	103		brtst 4, __NXC_Label_611, __zfmovinguntilsensor
+4	13	106	#line 13 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	14	106	#pragma macro 24
+4	14	106		acquire __RLSBmutex0
+4	14	107		arrbuild __RLSReadBuf0, __constVal16, __constVal73
+4	14	112		set __RLSBytesCount0, 1
+4	14	115		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+4	14	117		index __D0movinguntilsensor, __RLSReadBuf0, 65535
+4	14	121		release __RLSBmutex0
+4	6386	122	#line 6386 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	13	122	#line 13 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	14	122		mov __movinguntilsensor_7qG2_dir_7qG2_000, __D0movinguntilsensor
+4	13	124	#line 13 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	13	124	#line 13 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	14	124	#line 14 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	15	124		set __D0movinguntilsensor, 100
+4	17	127	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	127	#pragma macro 7
+4	18	127		setout __constVal0, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6398	150	#line 6398 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	17	150	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	17	150	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	150		mov __signed_stack_001movinguntilsensor, __movinguntilsensor_7qG2_dir_7qG2_000
+4	17	152	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	17	152	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	152		set __D0movinguntilsensor, 5
+4	17	155	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	155		cmp 0, __zfmovinguntilsensor, __signed_stack_001movinguntilsensor, __D0movinguntilsensor
+4	17	159	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	159		mov __D0movinguntilsensor, __zfmovinguntilsensor
+4	17	161	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	161		brtst 4, __NXC_Label_619, __zfmovinguntilsensor
+4	17	164	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	164		mov __signed_stack_001movinguntilsensor, __D0movinguntilsensor
+4	17	166	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	166		mov __signed_stack_002movinguntilsensor, __movinguntilsensor_7qG2_dir_7qG2_000
+4	17	168	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	17	168	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	168		set __D0movinguntilsensor, 0
+4	17	171	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	171		cmp 1, __zfmovinguntilsensor, __signed_stack_002movinguntilsensor, __D0movinguntilsensor
+4	17	175	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	17	175	#line 17 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	18	175		and __D0movinguntilsensor, __signed_stack_001movinguntilsensor, __zfmovinguntilsensor
+4	21	179	#line 21 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	22	179		tst 5, __zfmovinguntilsensor, __D0movinguntilsensor
+4	21	182	#line 21 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	22	182		brtst 4, __NXC_Label_620, __zfmovinguntilsensor
+4	21	185	#line 21 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	22	185		set __D0movinguntilsensor, 90
+4	22	188	#line 22 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	23	188	#pragma macro 10
+4	23	188		acquire __OnRevMutex
+4	23	189		neg __OnRev_Tmp, __D0movinguntilsensor
+4	23	192		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	23	215		release __OnRevMutex
+4	6437	216	#line 6437 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	22	216	#line 22 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	22	216	#line 22 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	23	216		set __D0movinguntilsensor, -90
+4	24	219	#line 24 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	25	219	#pragma macro 10
+4	25	219		acquire __OnRevMutex
+4	25	220		neg __OnRev_Tmp, __D0movinguntilsensor
+4	25	223		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	25	246		release __OnRevMutex
+4	6444	247	#line 6444 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	24	247	#line 24 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	25	247	#line 25 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	26	247		jmp __NXC_Label_625
+4	25	249	#line 25 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	26	249		mov __signed_stack_001movinguntilsensor, __movinguntilsensor_7qG2_dir_7qG2_000
+4	25	251	#line 25 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	25	251	#line 25 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	26	251		set __D0movinguntilsensor, 5
+4	25	254	#line 25 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	26	254		cmp 1, __zfmovinguntilsensor, __signed_stack_001movinguntilsensor, __D0movinguntilsensor
+4	25	258	#line 25 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	26	258		mov __D0movinguntilsensor, __zfmovinguntilsensor
+4	28	260	#line 28 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	29	260		brtst 4, __NXC_Label_628, __zfmovinguntilsensor
+4	28	263	#line 28 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	29	263		set __D0movinguntilsensor, 90
+4	29	266	#line 29 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	30	266	#pragma macro 7
+4	30	266		setout __constVal1, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6468	289	#line 6468 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	29	289	#line 29 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	29	289	#line 29 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	30	289		set __D0movinguntilsensor, -90
+4	30	292	#line 30 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	31	292	#pragma macro 7
+4	31	292		setout __constVal2, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6475	315	#line 6475 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	30	315	#line 30 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	32	315	#line 32 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	33	315		jmp __NXC_Label_633
+4	32	317	#line 32 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	33	317		set __D0movinguntilsensor, 0
+4	33	320	#line 33 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	34	320	#pragma macro 7
+4	34	320		setout __OUT_BC, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6485	343	#line 6485 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	33	343	#line 33 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	37	343	#line 37 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	37	343	#line 37 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	37	343	#line 37 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	38	343		getin __signed_stack_001movinguntilsensor, __constVal2, 4
+4	37	347	#line 37 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	38	347	#line 38 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	39	347		set __D0movinguntilsensor, 1
+4	38	350	#line 38 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	39	350		cmp 4, __zfmovinguntilsensor, __signed_stack_001movinguntilsensor, __D0movinguntilsensor
+4	38	354	#line 38 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	39	354		mov __D0movinguntilsensor, __zfmovinguntilsensor
+4	39	356	#line 39 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	40	356		brtst 4, __NXC_Label_638, __zfmovinguntilsensor
+4	39	359	#line 39 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	40	359		set __D0movinguntilsensor, 90
+4	40	362	#line 40 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	41	362	#pragma macro 10
+4	41	362		acquire __OnRevMutex
+4	41	363		neg __OnRev_Tmp, __D0movinguntilsensor
+4	41	366		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	41	389		release __OnRevMutex
+4	6510	390	#line 6510 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	40	390	#line 40 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	40	390	#line 40 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	41	390		set __D0movinguntilsensor, -90
+4	41	393	#line 41 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	42	393	#pragma macro 10
+4	42	393		acquire __OnRevMutex
+4	42	394		neg __OnRev_Tmp, __D0movinguntilsensor
+4	42	397		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	42	420		release __OnRevMutex
+4	6517	421	#line 6517 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	41	421	#line 41 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	42	421	#line 42 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	43	421		jmp __NXC_Label_643
+4	42	423	#line 42 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	43	423		getin __signed_stack_001movinguntilsensor, __constVal3, 4
+4	42	427	#line 42 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	43	427	#line 43 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	44	427		set __D0movinguntilsensor, 1
+4	43	430	#line 43 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	44	430		cmp 4, __zfmovinguntilsensor, __signed_stack_001movinguntilsensor, __D0movinguntilsensor
+4	43	434	#line 43 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	44	434		mov __D0movinguntilsensor, __zfmovinguntilsensor
+4	44	436	#line 44 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	45	436		brtst 4, __NXC_Label_646, __zfmovinguntilsensor
+4	44	439	#line 44 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	45	439		set __D0movinguntilsensor, 90
+4	45	442	#line 45 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	46	442	#pragma macro 7
+4	46	442		setout __constVal1, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6541	465	#line 6541 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	45	465	#line 45 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	45	465	#line 45 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	46	465		set __D0movinguntilsensor, -90
+4	46	468	#line 46 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	47	468	#pragma macro 7
+4	47	468		setout __constVal2, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6548	491	#line 6548 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	46	491	#line 46 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	49	491	#line 49 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	49	491	#line 49 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	67	491	#line 67 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	68	491		jmp __NXC_Label_610
+4	67	493	#line 67 "C:\Users\owner\Documents\RobotFinal.nxc"
+4	68	493		exit -1, -1
+5	69	0	#line 69 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	70	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 2
+5	69	3	#line 69 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	3718	3	#line 3718 "NXCDefs.h"
+5	3719	3	#pragma macro 6
+5	3719	3		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 0
+5	3719	7		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 1
+5	3719	11		acquire __ResetSensorMutex
+5	3719	12		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway
+5	3719	14		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	3719	16		release __ResetSensorMutex
+5	6572	17	#line 6572 "NXCDefs.h"
+5	3718	17	#line 3718 "NXCDefs.h"
+5	70	17	#line 70 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	70	17	#line 70 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	71	17		set __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 3
+5	70	20	#line 70 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	3718	20	#line 3718 "NXCDefs.h"
+5	3719	20	#pragma macro 6
+5	3719	20		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 0
+5	3719	24		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 1
+5	3719	28		acquire __ResetSensorMutex
+5	3719	29		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway
+5	3719	31		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	3719	33		release __ResetSensorMutex
+5	6582	34	#line 6582 "NXCDefs.h"
+5	3718	34	#line 3718 "NXCDefs.h"
+5	72	34	#line 72 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	72	34	#line 72 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	73	34		getin __signed_stack_001backaway, __constVal2, 4
+5	72	38	#line 72 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	73	38	#line 73 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	74	38		set __D0backaway, 1
+5	73	41	#line 73 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	74	41		cmp 4, __zfbackaway, __signed_stack_001backaway, __D0backaway
+5	73	45	#line 73 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	74	45		mov __D0backaway, __zfbackaway
+5	74	47	#line 74 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	75	47		brtst 4, __NXC_Label_657, __zfbackaway
+5	74	50	#line 74 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	75	50		set __D0backaway, 90
+5	75	53	#line 75 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	76	53	#pragma macro 10
+5	76	53		acquire __OnRevMutex
+5	76	54		neg __OnRev_Tmp, __D0backaway
+5	76	57		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	76	80		release __OnRevMutex
+5	6604	81	#line 6604 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	75	81	#line 75 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	75	81	#line 75 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	76	81		set __D0backaway, -90
+5	76	84	#line 76 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	77	84	#pragma macro 10
+5	77	84		acquire __OnRevMutex
+5	77	85		neg __OnRev_Tmp, __D0backaway
+5	77	88		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	77	111		release __OnRevMutex
+5	6611	112	#line 6611 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	76	112	#line 76 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	77	112	#line 77 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	78	112		jmp __NXC_Label_662
+5	77	114	#line 77 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	78	114		getin __signed_stack_001backaway, __constVal3, 4
+5	77	118	#line 77 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	78	118	#line 78 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	79	118		set __D0backaway, 1
+5	78	121	#line 78 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	79	121		cmp 4, __zfbackaway, __signed_stack_001backaway, __D0backaway
+5	78	125	#line 78 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	79	125		mov __D0backaway, __zfbackaway
+5	79	127	#line 79 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	80	127		brtst 4, __NXC_Label_665, __zfbackaway
+5	79	130	#line 79 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	80	130		set __D0backaway, 90
+5	80	133	#line 80 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	81	133	#pragma macro 7
+5	81	133		setout __constVal1, 2, __D0backaway, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6635	156	#line 6635 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	80	156	#line 80 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	80	156	#line 80 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	81	156		set __D0backaway, -90
+5	81	159	#line 81 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	82	159	#pragma macro 7
+5	82	159		setout __constVal2, 2, __D0backaway, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6642	182	#line 6642 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	81	182	#line 81 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	84	182	#line 84 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	84	182	#line 84 "C:\Users\owner\Documents\RobotFinal.nxc"
+5	85	182		exit -1, -1
+6	92	0	#line 92 "C:\Users\owner\Documents\RobotFinal.nxc"
+6	93	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\owner\Documents\RobotFinal.nxc
+1	__ResetSensorSubroutine	85	NXTDefs.h
+2	__ReadLSBytes0	98	NXTDefs.h
+3	__MSWriteBytesSub	182	NXTDefs.h
+4	movinguntilsensor	216	C:\Users\owner\Documents\RobotFinal.nxc
+5	backaway	712	C:\Users\owner\Documents\RobotFinal.nxc
+6	__initialize_global_data	897	C:\Users\owner\Documents\RobotFinal.nxc

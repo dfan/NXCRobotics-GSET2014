@@ -1,0 +1,148 @@
+// Setup I am going to set up the following for my exmaple
+// I am setting up a lame robot, but the structure should be good
+// If you want to play with this then PLEASE!!!!! back up your
+// Currect Code
+
+// Since I lack your parts, this may or may not actually work.  It will require
+// Some Debuging
+
+// Please DO NOT rip your robot apart to match my code.  (Since it may not work)
+// This is meant as an example.  You can copy parts however
+
+// Port 1 NXT Light Sensor on the Front
+// Port 2 RCX (Blue) Light Sensor on Rear
+// Port 3 Ultrasound Sensor facing forward
+// Port 4 Touch Sensor on Lifting Ram
+
+// Motor A is left
+// Motor B is Right
+// Motor C is Ram Lift
+
+//  State A:  Spin in a slow spiral until Ultrasound is less than 15cm
+
+//  State B:  If the front Light Sensor hits white, then back up random time,
+//  and turn left a random amount
+
+//  State C:  If the rear Light Sensor hits white, move forward and spin left.
+//  Even if we are in the middle of State B
+
+// In B and C the forward/back can be interrupted.  The Turns should NOT
+
+
+//  State D:  If we see them (US<15) then RAMMING SPEED!
+
+//  State E:  If the touch sensor is pressed, then lift until we reach the
+//  Top and then bring back down
+
+
+// So States A-D all fight for the motors.  State E can be its own task.
+
+// My plan is to have a task for ALL sensors.  Those tasks will set Gobal Flag
+// varibles.  There will be a task called motor that will go through the states
+// A command the motors as needed.  A last task will control the lift
+
+
+// Defines:  Set up my ports
+#define FLSP S1  // Front Light Sensor Port
+#define BLSP S2  // Back Light Sensor Port
+#define USP S3   // Ultrasound Sensor Port
+#define TSP S4   // Touch Sensor Port
+
+// Flags
+int FLSF=0;  // Front Light Sensor Flag
+int BLSF=0; // Back Light Sensor Flag
+int USF=0;   // Ultrasound Sensor Flag
+int TSF=0;   // Touch Sensor Port
+
+
+task check_front_light(){
+  // FLSF=0 nothing found
+  // FLSF=1 Should be backing up
+  // FLSF=2 Should be turning
+  while(true){
+    if(SensorValue(FLSP)>25){
+       FLSF=1; // Back up for between 0.5 and 1 second
+       Wait(Random(500)+500);
+       FLSF=2; // Turn for between 1 and 1.5 seconds
+       Wait(Random(500)+1000);
+    } else FLSF=0;  // Set it back
+  }
+}
+
+task check_back_light(){
+  // BLSF=0 nothing found
+  // BLSF=1 Should be backing up
+  // BLSF=2 Should be turning
+  while(true){
+    if(SensorValue(BLSP)>25){
+       BLSF=1; // Back up for between 0.5 and 0.75 second
+       Wait(Random(250)+500);
+       BLSF=2; // Turn for between 0.75 and 1.5 seconds
+       Wait(Random(750)+750);
+    } else BLSF=0;  // Set it back
+  }
+}
+
+task check_us(){
+  //USF=0 >15
+  //USF=1 <=15
+  while(true){
+    if(SensorUS(USP)<=15){
+      USF=1;
+      Wait(6000);  // Wait 6 seconds because sensor does not work at close
+                   // Range  Because the LS flags are higher, we should not run
+                   // Off course
+    } else USF=0;
+  }
+}
+
+task check_touch(){
+  while(true){
+    if(SensorValue(TSP)==1){
+      RotateMotor(OUT_C,100,60);
+      RotateMotor(OUT_C,100,-60); //Go back
+    }
+    Wait(25);  //Prevent CPU hogging
+  }
+}
+task motors(){
+  //This is a big cascade of if-else statements.  Order is important! The first
+  // will take effect
+  
+  while(true){
+    if(BLSF==2){
+       // Spin
+       OnFwd(OUT_A,50);
+       OnFwd(OUT_B,-50);
+    } else if(FLSF==2){
+       // Spin Other Way
+       OnFwd(OUT_A,-50);
+       OnFwd(OUT_B,50);
+    } else if(BLSF==1){
+       // Go Forward
+       OnFwd(OUT_A,50);
+       OnFwd(OUT_B,50);
+    } else if(FLSF==1){
+       // Go backwards
+       OnFwd(OUT_A,-50);
+       OnFwd(OUT_B,-50);
+    } else if(USF==1){
+       // RAMMING SPEED!
+       OnFwd(OUT_A,100);
+       OnFwd(OUT_B,100);
+    } else {
+       // Spin in slight spirl to find other robot
+       OnFwd(OUT_A,-40);
+       OnFwd(OUT_B,50);
+    }
+    Wait(25); // Prevent CPU hogging
+  }
+}
+
+task main(){
+  SetSensor(FLSP,SENSOR_NXTLIGHT);
+  SetSensor(BLSP,SENSOR_LIGHT);
+  SetSensor(USP,SENSOR_LOWSPEED);
+  SetSensor(TSP,SENSOR_TOUCH);
+  Precedes(check_front_light,check_back_light,motors,check_us,check_touch);
+  }

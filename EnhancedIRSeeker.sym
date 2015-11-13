@@ -1,0 +1,749 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0HTEnhancedIRSeekerV2	5	1	0	4	14
+1	__D0HTEnhancedIRSeekerV2	6	1	4	4	64
+2	__D0SetSensorLowspeed_inline_main	6	1	8	4	2
+3	__D0main	6	1	12	4	13
+4	__RLSBmutex3	9	0	16	4	4
+5	__RLSBmutex0	9	0	20	4	4
+6	__CLSRMutex3	9	0	24	4	2
+7	__RLSBmutex2	9	0	28	4	4
+8	__RLSBmutex1	9	0	32	4	4
+9	__DU0SetSensorLowspeed_inline_main	5	1	36	4	5
+10	__HTEnhancedIRSeekerV2_7qG2_dcSigSum_7qG2_000	6	1	40	4	8
+11	__signed_stack_002main	6	1	44	4	10
+12	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	48	4	2
+13	__HTEnhancedIRSeekerV2_7qG2_dcStr_7qG2_000	6	1	52	4	5
+14	__signed_stack_001main	6	1	56	4	10
+15	__signed_stack_002HTEnhancedIRSeekerV2	6	1	60	4	12
+16	__signed_stack_001HTEnhancedIRSeekerV2	6	1	64	4	46
+17	__unsigned_stack_002HTEnhancedIRSeekerV2	5	1	68	4	4
+18	__unsigned_stack_001HTEnhancedIRSeekerV2	5	1	72	4	8
+19	__CLSCSMutex0	9	0	76	4	2
+20	__CLSWMutex0	9	0	80	4	2
+21	__CLSRMutex0	9	0	84	4	2
+22	__CLSCSMutex1	9	0	88	4	2
+23	__CLSWMutex1	9	0	92	4	2
+24	__CLSRMutex1	9	0	96	4	2
+25	__CLSCSMutex2	9	0	100	4	2
+26	__CLSRMutex2	9	0	104	4	2
+27	__CLSCSMutex3	9	0	108	4	2
+28	__CLSWMutex3	9	0	112	4	2
+29	__CLSWMutex2	9	0	116	4	2
+30	__HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000	4	1	120	2	13
+31	__HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000	4	1	122	2	11
+32	__HTEnhancedIRSeekerV2_7qG2_strength_7qG2_000	4	1	124	2	8
+33	__HTEnhancedIRSeekerV2_7qG2_i_7qG2_000	4	1	126	2	11
+34	__HTEnhancedIRSeekerV2_7qG2_cResp_7qG2_000	4	1	128	2	6
+35	__main_7qG2_dir_7qG2_000	4	1	130	2	3
+36	__main_7qG2_strength_7qG2_000	4	1	132	2	3
+37	__constVal67	2	0	134	1	1
+38	__HTEnhancedIRSeekerV2_7qG2_fSuccess_7qG2_000	1	1	135	1	4
+39	__ResetSensorPort	1	1	136	1	3
+40	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	137	1	2
+41	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	138	1	2
+42	__constVal1	2	0	139	1	8
+43	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	140	1	2
+44	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	141	1	2
+45	____initialize_global_data_return	1	1	142	1	3
+46	__constVal0	2	1	143	1	1
+47	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	144	1	2
+48	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	145	1	4
+49	__HTEnhancedIRSeekerV2_return	1	1	146	1	3
+50	__RLSBIterationsVar	1	1	147	1	4
+51	__RLSReadPort	1	1	148	1	5
+52	__constVal16	2	0	149	1	1
+53	__RLSBytesCountVar	1	1	150	1	10
+54	__LSWriteOptionsVar	1	1	151	1	1
+55	____ReadLSBytesVar_return	1	1	152	1	4
+56	__RLSBResultVar	2	1	153	1	9
+57	____ResetSensorSubroutine_return	1	1	154	1	3
+58	__ResetSensorTmp	1	1	155	1	2
+59	__HTEnhancedIRSeekerV2_7qG2_port_7qG2_000	1	1	156	1	3
+60	__CLSWArgs0	8	0	4	12	5
+61	__CLSWArgs0.Result	2	1	160	1	5
+62	__CLSWArgs0.Port	1	1	161	1	5
+63	__CLSWArgs0.Buffer	7	0	162	4	5
+64	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+65	__CLSWArgs0.ReturnLen	1	1	164	1	5
+66	__TextOutArgs	8	0	4	16	30
+67	__TextOutArgs.Result	2	1	168	1	30
+68	__TextOutArgs.Location	8	0	2	4	30
+69	__TextOutArgs.Location.X	4	1	172	2	30
+70	__TextOutArgs.Location.Y	4	1	174	2	30
+71	__TextOutArgs.Text	7	0	176	4	30
+72	__TextOutArgs.Text.Text_type	1	0	0	1	0
+73	__TextOutArgs.Options	5	1	180	4	30
+74	__CLSCSArgs0	8	0	3	4	4
+75	__CLSCSArgs0.Result	2	1	184	1	4
+76	__CLSCSArgs0.Port	1	1	185	1	4
+77	__CLSCSArgs0.BytesReady	1	1	186	1	4
+78	__CLSRArgs0	8	0	4	12	5
+79	__CLSRArgs0.Result	2	1	188	1	5
+80	__CLSRArgs0.Port	1	1	189	1	5
+81	__CLSRArgs0.Buffer	7	0	190	4	5
+82	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+83	__CLSRArgs0.BufferLen	1	1	192	1	5
+84	__constStr0009	7	0	194	4	1
+85	__constStr0009.__constStr0009_type	1	1	0	1	0
+86	__constStr0011	7	0	196	4	1
+87	__constStr0011.__constStr0011_type	1	1	0	1	0
+88	__constStr0010	7	0	198	4	1
+89	__constStr0010.__constStr0010_type	1	1	0	1	0
+90	__HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000	7	0	200	4	14
+91	__HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000.__HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000_type	1	0	0	1	0
+92	__RLSReadBufVar	7	0	202	4	10
+93	__RLSReadBufVar.__RLSReadBufVar_type	1	0	0	1	0
+94	__strbufmain	7	0	204	4	6
+95	__strbufmain.__strbufmain_type	1	0	0	1	0
+96	__HTEnhancedIRSeekerV2_7qG2_cmdBuf_7qG2_000	7	0	206	4	5
+97	__HTEnhancedIRSeekerV2_7qG2_cmdBuf_7qG2_000.__HTEnhancedIRSeekerV2_7qG2_cmdBuf_7qG2_000_type	1	0	0	1	0
+98	__RLSLastGoodReadVar	7	0	208	4	2
+99	__RLSLastGoodReadVar.__RLSLastGoodReadVar_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	80	0	#line 80 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	81	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	80	2	#line 80 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	83	2	#line 83 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	84	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	83	5	#line 83 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	85	5	#line 85 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	86	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	7	#line 4342 "NXCDefs.h"
+0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4343	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	11	#line 4342 "NXCDefs.h"
+0	4343	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	14	#line 4342 "NXCDefs.h"
+0	4343	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	17	#line 4342 "NXCDefs.h"
+0	4343	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4343	20		jmp __004__ASM_Label_37
+0	4342	22	#line 4342 "NXCDefs.h"
+0	4343	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4344	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4344	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4278	40	#line 4278 "NXCDefs.h"
+0	4279	40	#pragma macro 4
+0	4279	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6690	44	#line 6690 "NXCDefs.h"
+0	4278	44	#line 4278 "NXCDefs.h"
+0	4345	44	#line 4345 "NXCDefs.h"
+0	85	44	#line 85 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	85	44	#line 85 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	86	44		set __signed_stack_001main, 0
+0	85	47	#line 85 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	85	47	#line 85 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	86	47		set __signed_stack_002main, 56
+0	85	50	#line 85 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	85	50	#line 85 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	86	50		strcat __strbufmain, __constStr0009
+0	87	54	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	87	54	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	88	54		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	87	56	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	88	56		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	87	58	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	88	58		set __TextOutArgs.Options, 0
+0	87	61	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	88	61		mov __TextOutArgs.Text, __strbufmain
+0	87	63	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	88	63		syscall 13, __TextOutArgs
+0	87	66	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	88	66		mov __D0main, __TextOutArgs.Result
+0	87	68	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	87	68	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	87	68	#line 87 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	88	68		set __D0main, 1
+0	88	71	#line 88 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	89	71		tst 5, __D0main, __D0main
+0	88	74	#line 88 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	89	74		brtst 4, __ASM_Label_730, __D0main
+0	88	77	#line 88 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	89	77		set __HTEnhancedIRSeekerV2_7qG2_port_7qG2_000, 0
+0	88	80	#line 88 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	88	80	#line 88 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	89	80		mov __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, __main_7qG2_dir_7qG2_000
+0	88	82	#line 88 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	89	82		mov __HTEnhancedIRSeekerV2_7qG2_strength_7qG2_000, __main_7qG2_strength_7qG2_000
+0	89	84	#line 89 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	84		subcall HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_return
+0	89	86	#line 89 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	86		mov __main_7qG2_dir_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000
+0	89	88	#line 89 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	88		mov __main_7qG2_strength_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_strength_7qG2_000
+0	89	90	#line 89 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	89	90	#line 89 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	90		set __signed_stack_001main, 0
+0	89	93	#line 89 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	89	93	#line 89 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	93		set __signed_stack_002main, 40
+0	89	96	#line 89 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	89	96	#line 89 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	96		strcat __strbufmain, __constStr0010
+0	90	100	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	100	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	100		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	90	102	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	102		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	90	104	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	104		set __TextOutArgs.Options, 0
+0	90	107	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	107		mov __TextOutArgs.Text, __strbufmain
+0	90	109	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	109		syscall 13, __TextOutArgs
+0	90	112	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	112		mov __D0main, __TextOutArgs.Result
+0	90	114	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	114	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	114	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	114		set __signed_stack_001main, 30
+0	90	117	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	117	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	117		set __signed_stack_002main, 40
+0	90	120	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	90	120	#line 90 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	120		mov __D0main, __main_7qG2_dir_7qG2_000
+0	91	122	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	122	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	122		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	91	124	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	124		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	91	126	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	126		set __TextOutArgs.Options, 0
+0	91	129	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	129		numtostr __TextOutArgs.Text, __D0main
+0	91	132	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	132		syscall 13, __TextOutArgs
+0	91	135	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	135		mov __D0main, __TextOutArgs.Result
+0	91	137	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	137	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	137	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	137		set __signed_stack_001main, 42
+0	91	140	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	140	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	140		set __signed_stack_002main, 40
+0	91	143	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	91	143	#line 91 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	143		strcat __strbufmain, __constStr0011
+0	92	147	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	147	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	93	147		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	92	149	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	93	149		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	92	151	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	93	151		set __TextOutArgs.Options, 0
+0	92	154	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	93	154		mov __TextOutArgs.Text, __strbufmain
+0	92	156	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	93	156		syscall 13, __TextOutArgs
+0	92	159	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	93	159		mov __D0main, __TextOutArgs.Result
+0	92	161	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	161	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	161	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	93	161		set __signed_stack_001main, 72
+0	92	164	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	164	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	93	164		set __signed_stack_002main, 40
+0	92	167	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	92	167	#line 92 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	93	167		mov __D0main, __main_7qG2_strength_7qG2_000
+0	94	169	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	94	169	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	95	169		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	94	171	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	95	171		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	94	173	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	95	173		set __TextOutArgs.Options, 0
+0	94	176	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	95	176		numtostr __TextOutArgs.Text, __D0main
+0	94	179	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	95	179		syscall 13, __TextOutArgs
+0	94	182	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	95	182		mov __D0main, __TextOutArgs.Result
+0	94	184	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	94	184	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	94	184	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	95	184		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	94	187	#line 94 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	8551	187	#line 8551 "NXCDefs.h"
+0	8552	187		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	189	#line 8551 "NXCDefs.h"
+0	96	189	#line 96 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	99	189	#line 99 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	100	189		jmp __ASM_Label_729
+0	99	191	#line 99 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+0	100	191		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	6430	0	#pragma macro 25
+2	6430	0		acquire __CLSWMutex0
+2	6430	1		acquire __CLSWMutex1
+2	6430	2		acquire __CLSWMutex2
+2	6430	3		acquire __CLSWMutex3
+2	6430	4		or __CLSWArgs0.Port, __RLSReadPort, __LSWriteOptionsVar
+2	6430	8		mov __CLSWArgs0.ReturnLen, __RLSBytesCountVar
+2	6430	10		mov __CLSWArgs0.Buffer, __RLSReadBufVar
+2	6430	12		syscall 21, __CLSWArgs0
+2	6430	15		mov __RLSBResultVar, __CLSWArgs0.Result
+2	6430	17		release __CLSWMutex0
+2	6430	18		release __CLSWMutex1
+2	6430	19		release __CLSWMutex2
+2	6430	20		release __CLSWMutex3
+2	6430	21	#line 6430 "NXTDefs.h"
+2	6431	21		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	6432	24		set __RLSBIterationsVar, 60
+2	6434	27	#pragma macro 23
+2	6434	27		acquire __CLSCSMutex0
+2	6434	28		acquire __CLSCSMutex1
+2	6434	29		acquire __CLSCSMutex2
+2	6434	30		acquire __CLSCSMutex3
+2	6434	31		mov __CLSCSArgs0.Port, __RLSReadPort
+2	6434	33		syscall 23, __CLSCSArgs0
+2	6434	36		mov __RLSBytesCountVar, __CLSCSArgs0.BytesReady
+2	6434	38		mov __RLSBResultVar, __CLSCSArgs0.Result
+2	6434	40		release __CLSCSMutex0
+2	6434	41		release __CLSCSMutex1
+2	6434	42		release __CLSCSMutex2
+2	6434	43		release __CLSCSMutex3
+2	6434	44	#line 6434 "NXTDefs.h"
+2	6435	44		sub __RLSBIterationsVar, __RLSBIterationsVar, __constVal1
+2	6436	48		brtst 2, __RLSBErrorVar, __RLSBIterationsVar
+2	6437	51		brtst 0, __RLSBErrorVar, __RLSBResultVar
+2	6438	54		brtst 4, __RLSBReadyToReadVar, __RLSBResultVar
+2	6440	57		wait 1
+2	6441	59		jmp __RLSBDoCheckStatusVar
+2	6443	61		brtst 4, __RLSBReturnVar, __RLSBytesCountVar
+2	6444	64		arrinit __RLSReadBufVar, __constVal0, __RLSBytesCountVar
+2	6446	68	#pragma macro 25
+2	6446	68		acquire __CLSRMutex0
+2	6446	69		acquire __CLSRMutex1
+2	6446	70		acquire __CLSRMutex2
+2	6446	71		acquire __CLSRMutex3
+2	6446	72		mov __CLSRArgs0.Port, __RLSReadPort
+2	6446	74		mov __CLSRArgs0.BufferLen, __RLSBytesCountVar
+2	6446	76		syscall 22, __CLSRArgs0
+2	6446	79		mov __RLSReadBufVar, __CLSRArgs0.Buffer
+2	6446	81		mov __RLSBResultVar, __CLSRArgs0.Result
+2	6446	83		release __CLSRMutex0
+2	6446	84		release __CLSRMutex1
+2	6446	85		release __CLSRMutex2
+2	6446	86		release __CLSRMutex3
+2	6446	87	#line 6446 "NXTDefs.h"
+2	6447	87		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	6448	90		mov __RLSLastGoodReadVar, __RLSReadBufVar
+2	6449	92		jmp __RLSBDoneVar
+2	6451	94		mov __RLSReadBufVar, __RLSLastGoodReadVar
+2	6453	96		arrsize __RLSBytesCountVar, __RLSReadBufVar
+2	6455	99		subret ____ReadLSBytesVar_return
+3	29	0	#line 29 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	30	0		arrbuild __HTEnhancedIRSeekerV2_7qG2_cmdBuf_7qG2_000, __constVal16, __constVal67
+3	35	5	#line 35 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	36	5		set __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, 0
+3	35	8	#line 35 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	35	8	#line 35 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	38	8	#line 38 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	39	8		set __HTEnhancedIRSeekerV2_7qG2_strength_7qG2_000, 0
+3	38	11	#line 38 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	38	11	#line 38 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	39	11	#line 39 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	40	11		set __HTEnhancedIRSeekerV2_7qG2_cResp_7qG2_000, 6
+3	39	14	#line 39 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	39	14	#line 39 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	39	14	#line 39 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	40	14	#pragma macro 28
+3	40	14		acquire __RLSBmutex0
+3	40	15		acquire __RLSBmutex1
+3	40	16		acquire __RLSBmutex2
+3	40	17		acquire __RLSBmutex3
+3	40	18		mov __RLSReadPort, __HTEnhancedIRSeekerV2_7qG2_port_7qG2_000
+3	40	20		mov __RLSReadBufVar, __HTEnhancedIRSeekerV2_7qG2_cmdBuf_7qG2_000
+3	40	22		mov __RLSBytesCountVar, __HTEnhancedIRSeekerV2_7qG2_cResp_7qG2_000
+3	40	24		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+3	40	26		tst 4, __D0HTEnhancedIRSeekerV2, __RLSBResultVar
+3	40	29		mov __HTEnhancedIRSeekerV2_7qG2_cResp_7qG2_000, __RLSBytesCountVar
+3	40	31		mov __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __RLSReadBufVar
+3	40	33		release __RLSBmutex0
+3	40	34		release __RLSBmutex1
+3	40	35		release __RLSBmutex2
+3	40	36		release __RLSBmutex3
+3	6016	37	#line 6016 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	39	37	#line 39 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	40	37		mov __HTEnhancedIRSeekerV2_7qG2_fSuccess_7qG2_000, __D0HTEnhancedIRSeekerV2
+3	39	39	#line 39 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	39	39	#line 39 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	40	39	#line 40 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	41	39		mov __DU0HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_fSuccess_7qG2_000
+3	42	41	#line 42 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	41		tst 5, __D0HTEnhancedIRSeekerV2, __DU0HTEnhancedIRSeekerV2
+3	42	44	#line 42 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	44		brtst 4, __ASM_Label_614, __D0HTEnhancedIRSeekerV2
+3	43	47	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	47		set __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000, 0
+3	43	50	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	50	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	50	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	50		set __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000, 1
+3	43	53	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	53	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	53		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000
+3	43	55	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	55	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	55		set __D0HTEnhancedIRSeekerV2, 5
+3	43	58	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	58		cmp 0, __D0HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	43	62	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	62		brtst 4, __ASM_Label_618, __D0HTEnhancedIRSeekerV2
+3	43	65	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	65		jmp __ASM_Label_619
+3	43	67	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	67		add __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000, __constVal1
+3	43	71	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	71		jmp __ASM_Label_617
+3	43	73	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	73		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000
+3	43	75	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	75	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	75		index __unsigned_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2
+3	43	79	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	79	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	79	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	79		mov __signed_stack_002HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	43	81	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	81	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	81		index __DU0HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_002HTEnhancedIRSeekerV2
+3	43	85	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	43	85	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	85		cmp 1, __D0HTEnhancedIRSeekerV2, __unsigned_stack_001HTEnhancedIRSeekerV2, __DU0HTEnhancedIRSeekerV2
+3	43	89	#line 43 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	44	89		brtst 4, __ASM_Label_631, __D0HTEnhancedIRSeekerV2
+3	45	92	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	46	92		mov __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000
+3	45	94	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	45	94	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	45	94	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	45	94	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	46	94		jmp __ASM_Label_620
+3	45	96	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	45	96	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	46	96		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	45	98	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	45	98	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	46	98		set __D0HTEnhancedIRSeekerV2, 2
+3	45	101	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	46	101		mul __signed_stack_001HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	45	105	#line 45 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	47	105	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	48	105		set __D0HTEnhancedIRSeekerV2, 1
+3	47	108	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	48	108		add __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	47	112	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	47	112	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	47	112	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	48	112		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	47	114	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	47	114	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	48	114		index __unsigned_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2
+3	47	118	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	47	118	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	47	118	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	48	118		set __signed_stack_002HTEnhancedIRSeekerV2, 5
+3	47	121	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	47	121	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	48	121		index __DU0HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_002HTEnhancedIRSeekerV2
+3	47	125	#line 47 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	125	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	125		add __HTEnhancedIRSeekerV2_7qG2_dcSigSum_7qG2_000, __unsigned_stack_001HTEnhancedIRSeekerV2, __DU0HTEnhancedIRSeekerV2
+3	49	129	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	129	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	129	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	129		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	49	131	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	131	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	131		set __D0HTEnhancedIRSeekerV2, 0
+3	49	134	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	134		cmp 1, __D0HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	49	138	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	138		brtst 4, __ASM_Label_643, __D0HTEnhancedIRSeekerV2
+3	49	141	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	141		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	49	143	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	143	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	143		set __D0HTEnhancedIRSeekerV2, 1
+3	49	146	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	146		sub __signed_stack_001HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	49	150	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	150	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	150		index __unsigned_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2
+3	49	154	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	154	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	154	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	154		mov __signed_stack_002HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	49	156	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	156	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	156		index __unsigned_stack_002HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_002HTEnhancedIRSeekerV2
+3	49	160	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	160	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	49	160	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	160		set __D0HTEnhancedIRSeekerV2, 2
+3	49	163	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	163		div __D0HTEnhancedIRSeekerV2, __unsigned_stack_002HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	49	167	#line 49 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	50	167		cmp 1, __D0HTEnhancedIRSeekerV2, __unsigned_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	50	171	#line 50 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	51	171		brtst 4, __ASM_Label_652, __D0HTEnhancedIRSeekerV2
+3	51	174	#line 51 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	52	174		sub __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, __constVal1
+3	51	178	#line 51 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	51	178	#line 51 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	52	178		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	51	180	#line 51 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	51	180	#line 51 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	52	180		set __D0HTEnhancedIRSeekerV2, 1
+3	51	183	#line 51 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	52	183		sub __signed_stack_001HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	51	187	#line 51 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	51	187	#line 51 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	52	187		index __DU0HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2
+3	51	191	#line 51 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	52	191	#line 52 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	191		add __HTEnhancedIRSeekerV2_7qG2_dcSigSum_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_dcSigSum_7qG2_000, __DU0HTEnhancedIRSeekerV2
+3	52	195	#line 52 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	195	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	195	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	195		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	53	197	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	197	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	197		set __D0HTEnhancedIRSeekerV2, 4
+3	53	200	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	200		cmp 0, __D0HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	53	204	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	204		brtst 4, __ASM_Label_658, __D0HTEnhancedIRSeekerV2
+3	53	207	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	207		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	53	209	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	209	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	209		set __D0HTEnhancedIRSeekerV2, 1
+3	53	212	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	212		add __signed_stack_001HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	53	216	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	216	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	216		index __unsigned_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2
+3	53	220	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	220	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	220	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	220		mov __signed_stack_002HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	53	222	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	222	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	222		index __unsigned_stack_002HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_002HTEnhancedIRSeekerV2
+3	53	226	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	226	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	53	226	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	226		set __D0HTEnhancedIRSeekerV2, 2
+3	53	229	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	229		div __D0HTEnhancedIRSeekerV2, __unsigned_stack_002HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	53	233	#line 53 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	54	233		cmp 1, __D0HTEnhancedIRSeekerV2, __unsigned_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	54	237	#line 54 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	55	237		brtst 4, __ASM_Label_667, __D0HTEnhancedIRSeekerV2
+3	55	240	#line 55 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	56	240		add __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, __constVal1
+3	55	244	#line 55 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	55	244	#line 55 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	56	244		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_iMax_7qG2_000
+3	55	246	#line 55 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	55	246	#line 55 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	56	246		set __D0HTEnhancedIRSeekerV2, 1
+3	55	249	#line 55 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	56	249		add __signed_stack_001HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	55	253	#line 55 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	55	253	#line 55 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	56	253		index __DU0HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2
+3	55	257	#line 55 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	56	257	#line 56 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	57	257		add __HTEnhancedIRSeekerV2_7qG2_dcSigSum_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_dcSigSum_7qG2_000, __DU0HTEnhancedIRSeekerV2
+3	56	261	#line 56 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	58	261	#line 58 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	58	261	#line 58 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	261		set __D0HTEnhancedIRSeekerV2, 500
+3	58	264	#line 58 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	264		mul __HTEnhancedIRSeekerV2_7qG2_dcSigSum_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_dcSigSum_7qG2_000, __D0HTEnhancedIRSeekerV2
+3	58	268	#line 58 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	268	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	60	268		set __HTEnhancedIRSeekerV2_7qG2_dcStr_7qG2_000, 1
+3	59	271	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	271	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	271	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	60	271		set __signed_stack_001HTEnhancedIRSeekerV2, 10
+3	59	274	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	274	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	60	274		sub __signed_stack_001HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __constVal1
+3	59	278	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	278	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	278	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	278	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	60	278		div __signed_stack_002HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_dcSigSum_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_dcStr_7qG2_000
+3	59	282	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	282	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	59	282	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	60	282		add __signed_stack_002HTEnhancedIRSeekerV2, __signed_stack_002HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_dcStr_7qG2_000
+3	59	286	#line 59 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	60	286	#line 60 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	61	286		set __D0HTEnhancedIRSeekerV2, 2
+3	60	289	#line 60 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	61	289		div __HTEnhancedIRSeekerV2_7qG2_dcStr_7qG2_000, __signed_stack_002HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	60	293	#line 60 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	60	293	#line 60 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	60	293	#line 60 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	61	293		brtst 1, __ASM_Label_676, __signed_stack_001HTEnhancedIRSeekerV2
+3	60	296	#line 60 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	62	296	#line 62 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	63	296		mov __HTEnhancedIRSeekerV2_7qG2_strength_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_dcStr_7qG2_000
+3	62	298	#line 62 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	62	298	#line 62 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	62	298	#line 62 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	63	298		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_strength_7qG2_000
+3	62	300	#line 62 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	62	300	#line 62 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	63	300		set __D0HTEnhancedIRSeekerV2, 200
+3	62	303	#line 62 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	63	303		cmp 2, __D0HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	64	307	#line 64 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	65	307		brtst 4, __ASM_Label_688, __D0HTEnhancedIRSeekerV2
+3	64	310	#line 64 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	65	310		set __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, 0
+3	64	313	#line 64 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	64	313	#line 64 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	65	313	#line 65 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	66	313		set __HTEnhancedIRSeekerV2_7qG2_strength_7qG2_000, 0
+3	65	316	#line 65 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	65	316	#line 65 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	65	316	#line 65 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	66	316		set __signed_stack_001HTEnhancedIRSeekerV2, 1
+3	65	319	#line 65 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	66	319	#line 66 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	67	319		set __D0HTEnhancedIRSeekerV2, 73
+3	66	322	#line 66 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	67	322		replace __HTEnhancedIRSeekerV2_7qG2_cmdBuf_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_cmdBuf_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	66	327	#line 66 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	67	327	#line 67 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	68	327		set __HTEnhancedIRSeekerV2_7qG2_cResp_7qG2_000, 6
+3	67	330	#line 67 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	67	330	#line 67 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	67	330	#line 67 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	68	330	#pragma macro 28
+3	68	330		acquire __RLSBmutex0
+3	68	331		acquire __RLSBmutex1
+3	68	332		acquire __RLSBmutex2
+3	68	333		acquire __RLSBmutex3
+3	68	334		mov __RLSReadPort, __HTEnhancedIRSeekerV2_7qG2_port_7qG2_000
+3	68	336		mov __RLSReadBufVar, __HTEnhancedIRSeekerV2_7qG2_cmdBuf_7qG2_000
+3	68	338		mov __RLSBytesCountVar, __HTEnhancedIRSeekerV2_7qG2_cResp_7qG2_000
+3	68	340		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+3	68	342		tst 4, __D0HTEnhancedIRSeekerV2, __RLSBResultVar
+3	68	345		mov __HTEnhancedIRSeekerV2_7qG2_cResp_7qG2_000, __RLSBytesCountVar
+3	68	347		mov __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __RLSReadBufVar
+3	68	349		release __RLSBmutex0
+3	68	350		release __RLSBmutex1
+3	68	351		release __RLSBmutex2
+3	68	352		release __RLSBmutex3
+3	6482	353	#line 6482 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	67	353	#line 67 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	68	353		mov __HTEnhancedIRSeekerV2_7qG2_fSuccess_7qG2_000, __D0HTEnhancedIRSeekerV2
+3	67	355	#line 67 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	67	355	#line 67 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	68	355	#line 68 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	69	355		mov __DU0HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_fSuccess_7qG2_000
+3	69	357	#line 69 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	70	357		tst 5, __D0HTEnhancedIRSeekerV2, __DU0HTEnhancedIRSeekerV2
+3	69	360	#line 69 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	70	360		brtst 4, __ASM_Label_703, __D0HTEnhancedIRSeekerV2
+3	69	363	#line 69 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	70	363		set __signed_stack_001HTEnhancedIRSeekerV2, 0
+3	69	366	#line 69 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	69	366	#line 69 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	70	366		index __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2
+3	69	370	#line 69 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	71	370	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	71	370	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	71	370	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	370		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_dir_7qG2_000
+3	71	372	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	71	372	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	372		set __D0HTEnhancedIRSeekerV2, 0
+3	71	375	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	375		cmp 1, __D0HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	71	379	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	379		brtst 4, __ASM_Label_710, __D0HTEnhancedIRSeekerV2
+3	71	382	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	382		set __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000, 1
+3	71	385	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	71	385	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	385		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000
+3	71	387	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	71	387	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	387		set __D0HTEnhancedIRSeekerV2, 5
+3	71	390	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	390		cmp 2, __D0HTEnhancedIRSeekerV2, __signed_stack_001HTEnhancedIRSeekerV2, __D0HTEnhancedIRSeekerV2
+3	71	394	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	394		brtst 4, __ASM_Label_712, __D0HTEnhancedIRSeekerV2
+3	71	397	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	397		jmp __ASM_Label_713
+3	71	399	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	399		add __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000, __constVal1
+3	71	403	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	403		jmp __ASM_Label_711
+3	71	405	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	405		mov __signed_stack_001HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_i_7qG2_000
+3	71	407	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	71	407	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	407		index __DU0HTEnhancedIRSeekerV2, __HTEnhancedIRSeekerV2_7qG2_respBuf_7qG2_000, __signed_stack_001HTEnhancedIRSeekerV2
+3	71	411	#line 71 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	411	#line 72 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	73	411		add __HTEnhancedIRSeekerV2_7qG2_strength_7qG2_000, __HTEnhancedIRSeekerV2_7qG2_strength_7qG2_000, __DU0HTEnhancedIRSeekerV2
+3	72	415	#line 72 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	72	415	#line 72 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	73	415		jmp __ASM_Label_714
+3	72	417	#line 72 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	73	417	#line 73 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	74	417	#line 74 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	75	417	#line 75 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	78	417	#line 78 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	78	417	#line 78 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+3	79	417		subret __HTEnhancedIRSeekerV2_return
+4	100	0	#line 100 "C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc"
+4	101	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	194	NXTDefs.h
+2	__ReadLSBytesVar	207	NXTDefs.h
+3	HTEnhancedIRSeekerV2	308	C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc
+4	__initialize_global_data	727	C:\Users\DAVIDF~1\AppData\Local\Temp\temp.nxc

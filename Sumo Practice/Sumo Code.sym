@@ -1,0 +1,467 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0findingrobot	6	1	0	4	19
+1	__SPTArgsMutex	9	0	4	4	2
+2	__D0SetSensorLowspeed_inline_main	6	1	8	4	3
+3	__DF0findingrobot	10	1	12	4	2
+4	__SSSMutex	9	0	16	4	2
+5	__CLSRMutex1	9	0	20	4	2
+6	__CLSWMutex1	9	0	24	4	2
+7	__RLSBmutex1	9	0	28	4	2
+8	__RLSBmutex0	9	0	32	4	2
+9	__float_stack_001findingrobot	10	1	36	4	2
+10	__signed_stack_003findingrobot	6	1	40	4	2
+11	__findingrobot_7qG2_distance_7qG2_000	10	1	44	4	2
+12	__Wait_7qG2_ms_7qG2_000_inline_findingrobot	5	1	48	4	3
+13	__signed_stack_002findingrobot	6	1	52	4	2
+14	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	56	4	3
+15	__DU0SetSensorLowspeed_inline_main	5	1	60	4	2
+16	__signed_stack_001findingrobot	6	1	64	4	2
+17	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	68	4	2
+18	__CLSCSMutex1	9	0	72	4	2
+19	__CLSCSMutex0	9	0	76	4	2
+20	__CLSWMutex0	9	0	80	4	2
+21	__CLSRMutex0	9	0	84	4	2
+22	__findingrobot_7qG2_x_7qG2_000	4	1	88	2	2
+23	__ResetSensorTmp	1	1	90	1	2
+24	__ResetSensorPort	1	1	91	1	4
+25	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	92	1	2
+26	__zfSetSensorLowspeed_inline_main	1	1	93	1	2
+27	__zffindingrobot	1	1	94	1	7
+28	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	95	1	2
+29	____ResetSensorSubroutine_return	1	1	96	1	4
+30	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	97	1	2
+31	__constVal96	2	0	98	1	3
+32	__constVal17	2	0	99	1	1
+33	__constVal63	2	0	100	1	3
+34	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	101	1	4
+35	____initialize_global_data_return	1	1	102	1	3
+36	__constVal3	2	0	103	1	3
+37	__constVal4	2	0	104	1	1
+38	__constVal0	2	1	105	1	14
+39	__constVal32	2	0	106	1	9
+40	__constVal1	2	0	107	1	4
+41	__RLSBResult0	2	1	108	1	7
+42	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	109	1	4
+43	__RLSBytesCount0	1	1	110	1	7
+44	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	111	1	2
+45	__RLSBIterations0	1	1	112	1	4
+46	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	113	1	2
+47	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	114	1	2
+48	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	115	1	2
+49	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	116	1	2
+50	____ReadLSBytes0_return	1	1	117	1	3
+51	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	118	1	2
+52	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	119	1	2
+53	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	120	1	2
+54	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	121	1	2
+55	__constVal50	2	0	122	1	1
+56	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	123	1	2
+57	____ReadLSBytes1_return	1	1	124	1	3
+58	__RLSBResult1	2	1	125	1	7
+59	__RLSBIterations1	1	1	126	1	4
+60	__RLSBytesCount1	1	1	127	1	7
+61	__CLSCSArgs1	8	0	3	4	4
+62	__CLSCSArgs1.Result	2	1	128	1	4
+63	__CLSCSArgs1.Port	1	1	129	1	4
+64	__CLSCSArgs1.BytesReady	1	1	130	1	4
+65	__CLSRArgs0	8	0	4	12	5
+66	__CLSRArgs0.Result	2	1	132	1	5
+67	__CLSRArgs0.Port	1	1	133	1	5
+68	__CLSRArgs0.Buffer	7	0	134	4	5
+69	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+70	__CLSRArgs0.BufferLen	1	1	136	1	5
+71	__CLSWArgs1	8	0	4	12	5
+72	__CLSWArgs1.Result	2	1	140	1	5
+73	__CLSWArgs1.Port	1	1	141	1	5
+74	__CLSWArgs1.Buffer	7	0	142	4	5
+75	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+76	__CLSWArgs1.ReturnLen	1	1	144	1	5
+77	__CLSRArgs1	8	0	4	12	5
+78	__CLSRArgs1.Result	2	1	148	1	5
+79	__CLSRArgs1.Port	1	1	149	1	5
+80	__CLSRArgs1.Buffer	7	0	150	4	5
+81	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+82	__CLSRArgs1.BufferLen	1	1	152	1	5
+83	__CLSWArgs0	8	0	4	12	5
+84	__CLSWArgs0.Result	2	1	156	1	5
+85	__CLSWArgs0.Port	1	1	157	1	5
+86	__CLSWArgs0.Buffer	7	0	158	4	5
+87	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+88	__CLSWArgs0.ReturnLen	1	1	160	1	5
+89	__SSSArgs	8	0	3	4	4
+90	__SSSArgs.Result	1	1	164	1	4
+91	__SSSArgs.State	1	1	165	1	4
+92	__SSSArgs.Flags	1	1	166	1	4
+93	__SPTArgs	8	0	5	8	6
+94	__SPTArgs.Result	2	1	168	1	6
+95	__SPTArgs.Frequency	3	1	170	2	6
+96	__SPTArgs.Duration	3	1	172	2	6
+97	__SPTArgs.Loop	1	1	174	1	6
+98	__SPTArgs.Volume	1	1	175	1	6
+99	__CLSCSArgs0	8	0	3	4	4
+100	__CLSCSArgs0.Result	2	1	176	1	4
+101	__CLSCSArgs0.Port	1	1	177	1	4
+102	__CLSCSArgs0.BytesReady	1	1	178	1	4
+103	__OUT_AC	7	0	180	4	2
+104	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+105	__RLSLastGoodRead1	7	0	182	4	2
+106	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+107	__RLSReadBuf1	7	0	184	4	8
+108	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+109	__RLSReadBuf0	7	0	186	4	8
+110	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+111	__RLSBbufLSWrite1	7	0	188	4	2
+112	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+113	__RLSLastGoodRead0	7	0	190	4	2
+114	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	26	0	#line 26 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	27	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	26	2	#line 26 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	26	2	#line 26 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	27	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	26	5	#line 26 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	26	5	#line 26 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	27	5		set __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, 1
+0	26	8	#line 26 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	3758	8	#line 3758 "NXCDefs.h"
+0	3759	8		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	10	#line 3758 "NXCDefs.h"
+0	3758	10	#line 3758 "NXCDefs.h"
+0	3759	10		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	12	#line 3758 "NXCDefs.h"
+0	3759	12		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	15	#line 3758 "NXCDefs.h"
+0	3759	15		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	18	#line 3758 "NXCDefs.h"
+0	3759	18		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	21	#line 3758 "NXCDefs.h"
+0	3759	21		jmp __004__NXC_Label_37
+0	3758	23	#line 3758 "NXCDefs.h"
+0	3759	23		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	26	#line 3758 "NXCDefs.h"
+0	3759	26		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	28	#line 3663 "NXCDefs.h"
+0	3664	28		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	32	#line 3663 "NXCDefs.h"
+0	3759	32	#line 3759 "NXCDefs.h"
+0	3759	32	#line 3759 "NXCDefs.h"
+0	3760	32		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	34	#line 3759 "NXCDefs.h"
+0	3759	34	#line 3759 "NXCDefs.h"
+0	3760	34		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	37	#line 3759 "NXCDefs.h"
+0	3676	37	#line 3676 "NXCDefs.h"
+0	3677	37		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	41	#line 3676 "NXCDefs.h"
+0	3760	41	#line 3760 "NXCDefs.h"
+0	3760	41	#line 3760 "NXCDefs.h"
+0	3760	41	#line 3760 "NXCDefs.h"
+0	3694	41	#line 3694 "NXCDefs.h"
+0	3695	41	#pragma macro 4
+0	3695	41		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6361	45	#line 6361 "NXCDefs.h"
+0	3694	45	#line 3694 "NXCDefs.h"
+0	3761	45	#line 3761 "NXCDefs.h"
+0	27	45	#line 27 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	27	45	#line 27 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	27	45	#line 27 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	3768	45	#line 3768 "NXCDefs.h"
+0	3769	45		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal0
+0	3768	47	#line 3768 "NXCDefs.h"
+0	3768	47	#line 3768 "NXCDefs.h"
+0	3769	47		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	49	#line 3758 "NXCDefs.h"
+0	3759	49		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	51	#line 3758 "NXCDefs.h"
+0	3758	51	#line 3758 "NXCDefs.h"
+0	3759	51		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	53	#line 3758 "NXCDefs.h"
+0	3759	53		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	56	#line 3758 "NXCDefs.h"
+0	3759	56		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	59	#line 3758 "NXCDefs.h"
+0	3759	59		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	62	#line 3758 "NXCDefs.h"
+0	3759	62		jmp __001__001__NXC_Label_37
+0	3758	64	#line 3758 "NXCDefs.h"
+0	3759	64		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	67	#line 3758 "NXCDefs.h"
+0	3759	67		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	69	#line 3663 "NXCDefs.h"
+0	3664	69		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	73	#line 3663 "NXCDefs.h"
+0	3759	73	#line 3759 "NXCDefs.h"
+0	3759	73	#line 3759 "NXCDefs.h"
+0	3760	73		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	75	#line 3759 "NXCDefs.h"
+0	3759	75	#line 3759 "NXCDefs.h"
+0	3760	75		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	78	#line 3759 "NXCDefs.h"
+0	3676	78	#line 3676 "NXCDefs.h"
+0	3677	78		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	82	#line 3676 "NXCDefs.h"
+0	3760	82	#line 3760 "NXCDefs.h"
+0	3760	82	#line 3760 "NXCDefs.h"
+0	3760	82	#line 3760 "NXCDefs.h"
+0	3694	82	#line 3694 "NXCDefs.h"
+0	3695	82	#pragma macro 4
+0	3695	82		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3695	84		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6466	86	#line 6466 "NXCDefs.h"
+0	3694	86	#line 3694 "NXCDefs.h"
+0	3761	86	#line 3761 "NXCDefs.h"
+0	3768	86	#line 3768 "NXCDefs.h"
+0	28	86	#line 28 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	28	86	#line 28 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	29	86		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 1
+0	28	89	#line 28 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	28	89	#line 28 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	29	89		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 10
+0	28	92	#line 28 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	3663	92	#line 3663 "NXCDefs.h"
+0	3664	92		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	96	#line 3663 "NXCDefs.h"
+0	29	96	#line 29 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	30	96	#line 30 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	30	96	#line 30 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+0	31	96		exit 0, 0
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5672	0	#pragma macro 25
+2	5672	0		acquire __CLSWMutex0
+2	5672	1		set __CLSWArgs0.Port, 0
+2	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	5672	8		syscall 21, __CLSWArgs0
+2	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+2	5672	13		release __CLSWMutex0
+2	5673	14	#line 5673 "NXTDefs.h"
+2	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+2	5677	24		set __RLSBIterations0, 4
+2	5679	27	#pragma macro 23
+2	5679	27		acquire __CLSCSMutex0
+2	5679	28		set __CLSCSArgs0.Port, 0
+2	5679	31		syscall 23, __CLSCSArgs0
+2	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+2	5679	38		release __CLSCSMutex0
+2	5679	39	#line 5679 "NXTDefs.h"
+2	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+2	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+2	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	5685	52		wait 15
+2	5686	54		jmp __RLSBDoCheckStatus0
+2	5689	56	#pragma macro 25
+2	5689	56		acquire __CLSRMutex0
+2	5689	57		set __CLSRArgs0.Port, 0
+2	5689	60		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	5689	62		syscall 22, __CLSRArgs0
+2	5689	65		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	5689	67		mov __RLSBResult0, __CLSRArgs0.Result
+2	5689	69		release __CLSRMutex0
+2	5689	70	#line 5689 "NXTDefs.h"
+2	5690	70		brtst 5, __RLSBError0, __RLSBResult0
+2	5691	73		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	5692	75		jmp __RLSBDone0
+2	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	5698	82		subret ____ReadLSBytes0_return
+3	5710	0	#pragma macro 25
+3	5710	0		acquire __CLSWMutex1
+3	5710	1		set __CLSWArgs1.Port, 1
+3	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+3	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+3	5710	8		syscall 21, __CLSWArgs1
+3	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+3	5710	13		release __CLSWMutex1
+3	5710	14	#line 5710 "NXTDefs.h"
+3	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+3	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+3	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+3	5714	24		set __RLSBIterations1, 4
+3	5716	27	#pragma macro 23
+3	5716	27		acquire __CLSCSMutex1
+3	5716	28		set __CLSCSArgs1.Port, 1
+3	5716	31		syscall 23, __CLSCSArgs1
+3	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+3	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+3	5716	38		release __CLSCSMutex1
+3	5716	39	#line 5716 "NXTDefs.h"
+3	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+3	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+3	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+3	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+3	5722	52		wait 15
+3	5723	54		jmp __RLSBDoCheckStatus1
+3	5726	56	#pragma macro 25
+3	5726	56		acquire __CLSRMutex1
+3	5726	57		set __CLSRArgs1.Port, 1
+3	5726	60		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+3	5726	62		syscall 22, __CLSRArgs1
+3	5726	65		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+3	5726	67		mov __RLSBResult1, __CLSRArgs1.Result
+3	5726	69		release __CLSRMutex1
+3	5726	70	#line 5726 "NXTDefs.h"
+3	5727	70		brtst 5, __RLSBError1, __RLSBResult1
+3	5728	73		mov __RLSLastGoodRead1, __RLSReadBuf1
+3	5729	75		jmp __RLSBDone1
+3	5731	77		mov __RLSReadBuf1, __RLSLastGoodRead1
+3	5733	79		arrsize __RLSBytesCount1, __RLSReadBuf1
+3	5735	82		subret ____ReadLSBytes1_return
+4	3	0	#line 3 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	4	0		set __signed_stack_001findingrobot, 932
+4	3	3	#line 3 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	3	3	#line 3 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	4	3		set __signed_stack_002findingrobot, 1000
+4	3	6	#line 3 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	3	6	#line 3 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	4	6		set __signed_stack_003findingrobot, 4
+4	3	9	#line 3 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	3	9	#line 3 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	4	9		set __D0findingrobot, 0
+4	4	12	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	12		acquire __SPTArgsMutex
+4	4	13	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	13		mov __SPTArgs.Frequency, __signed_stack_001findingrobot
+4	4	15	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	15		mov __SPTArgs.Duration, __signed_stack_002findingrobot
+4	4	17	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	17		mov __SPTArgs.Volume, __signed_stack_003findingrobot
+4	4	19	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	19		mov __SPTArgs.Loop, __D0findingrobot
+4	4	21	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	21		syscall 10, __SPTArgs
+4	4	24	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	24		mov __D0findingrobot, __SPTArgs.Result
+4	4	26	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	26		release __SPTArgsMutex
+4	4	27	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	4	27	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	27		set __Wait_7qG2_ms_7qG2_000_inline_findingrobot, 4000
+4	4	30	#line 4 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	7921	30	#line 7921 "NXCDefs.h"
+4	7922	30		wait 4000
+4	7921	32	#line 7921 "NXCDefs.h"
+4	5	32	#line 5 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	32	#line 5 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	6	32	#pragma macro 6
+4	6	32		acquire __SSSMutex
+4	6	33		mov __SSSArgs.State, __constVal4
+4	6	35		mov __SSSArgs.Flags, __constVal0
+4	6	37		syscall 12, __SSSArgs
+4	6	40		mov __D0findingrobot, __SSSArgs.Result
+4	6	42		release __SSSMutex
+4	6147	43	#line 6147 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	43	#line 5 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	5	43	#line 5 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	6	43	#line 6 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	7	43	#pragma macro 26
+4	7	43		acquire __RLSBmutex0
+4	7	44		mov __RLSReadBuf0, __RLSBbufLSWrite1
+4	7	46		set __RLSBytesCount0, 1
+4	7	49		wait 15
+4	7	51		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+4	7	53		index __D0findingrobot, __RLSReadBuf0, 65535
+4	7	57		release __RLSBmutex0
+4	6155	58	#line 6155 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	6	58	#line 6 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	7	58		mov __findingrobot_7qG2_distance_7qG2_000, __D0findingrobot
+4	7	60	#line 7 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	8	60	#pragma macro 24
+4	8	60		acquire __RLSBmutex1
+4	8	61		mov __RLSReadBuf1, __RLSBbufLSWrite1
+4	8	63		set __RLSBytesCount1, 1
+4	8	66		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+4	8	68		index __D0findingrobot, __RLSReadBuf1, 65535
+4	8	72		release __RLSBmutex1
+4	6165	73	#line 6165 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	7	73	#line 7 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	8	73		mov __findingrobot_7qG2_x_7qG2_000, __D0findingrobot
+4	9	75	#line 9 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	10	75		set __D0findingrobot, 1
+4	10	78	#line 10 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	11	78		tst 5, __zffindingrobot, __D0findingrobot
+4	10	81	#line 10 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	11	81		brtst 4, __NXC_Label_619, __zffindingrobot
+4	10	84	#line 10 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	11	84		set __findingrobot_7qG2_x_7qG2_000, 17
+4	10	87	#line 10 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	10	87	#line 10 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	11	87		mov __D0findingrobot, __constVal17
+4	11	89	#line 11 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	12	89		tst 5, __zffindingrobot, __D0findingrobot
+4	11	92	#line 11 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	12	92		brtst 4, __NXC_Label_626, __zffindingrobot
+4	11	95	#line 11 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	12	95		set __D0findingrobot, -100
+4	12	98	#line 12 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	13	98	#pragma macro 7
+4	13	98		setout __OUT_AC, 2, __D0findingrobot, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6198	121	#line 6198 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	12	121	#line 12 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	12	121	#line 12 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	13	121		set __Wait_7qG2_ms_7qG2_000_inline_findingrobot, 1000
+4	12	124	#line 12 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	7921	124	#line 7921 "NXCDefs.h"
+4	7922	124		wait 1000
+4	7921	126	#line 7921 "NXCDefs.h"
+4	13	126	#line 13 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	14	126	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	14	126	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	15	126		mov __float_stack_001findingrobot, __findingrobot_7qG2_distance_7qG2_000
+4	14	128	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	14	128	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	15	128		mov __DF0findingrobot, __constVal50
+4	14	130	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	15	130		cmp 0, __zffindingrobot, __float_stack_001findingrobot, __DF0findingrobot
+4	14	134	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	15	134		mov __D0findingrobot, __zffindingrobot
+4	15	136	#line 15 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	16	136		brtst 4, __NXC_Label_633, __zffindingrobot
+4	15	139	#line 15 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	16	139		set __D0findingrobot, 100
+4	16	142	#line 16 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	17	142	#pragma macro 7
+4	17	142		setout __OUT_AC, 2, __D0findingrobot, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6231	165	#line 6231 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	16	165	#line 16 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	18	165	#line 18 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	19	165		jmp __NXC_Label_636
+4	18	167	#line 18 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	19	167		set __D0findingrobot, 75
+4	19	170	#line 19 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	20	170	#pragma macro 7
+4	20	170		setout __constVal0, 2, __D0findingrobot, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6241	193	#line 6241 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	19	193	#line 19 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	21	193	#line 21 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	21	193	#line 21 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	22	193		jmp __NXC_Label_618
+4	21	195	#line 21 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	21	195	#line 21 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	22	195		set __Wait_7qG2_ms_7qG2_000_inline_findingrobot, 25
+4	21	198	#line 21 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	7921	198	#line 7921 "NXCDefs.h"
+4	7922	198		wait 25
+4	7921	200	#line 7921 "NXCDefs.h"
+4	22	200	#line 22 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+4	23	200		exit -1, -1
+5	33	0	#line 33 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc"
+5	34	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	F:\Research Lab Projects\2014 NJ Governors School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc
+1	__ResetSensorSubroutine	99	NXTDefs.h
+2	__ReadLSBytes0	112	NXTDefs.h
+3	__ReadLSBytes1	196	NXTDefs.h
+4	findingrobot	280	F:\Research Lab Projects\2014 NJ Governors School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc
+5	__initialize_global_data	483	F:\Research Lab Projects\2014 NJ Governors School of Engineering and Technology\Robotics\Sumo Practice\Sumo Code.nxc

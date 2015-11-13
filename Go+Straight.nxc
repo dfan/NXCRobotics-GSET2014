@@ -1,0 +1,31 @@
+task main(){
+  // This command will keep both motors in sync.  The last number
+  // '0' specfies a turn.  -100 to 100 are allowed.  0 goes straigt
+  
+    OnFwdSync(OUT_AC,50,0);
+    Wait(1000);
+
+  // Turn
+    OnFwdSync(OUT_AC,50,100);
+    Wait(1000);
+
+  // Turn the other way
+    OnFwdSync(OUT_AC,50,-100);
+    Wait(1000);
+
+  // Pause for clairity
+  Off(OUT_AC);
+  Wait(500);
+
+
+  // Go Backwards
+  OnFwdSync(OUT_AC,-50,0);
+  Wait(1000);
+
+
+
+  // Move in an arc
+  OnFwdSync(OUT_AC,50,15);
+  Wait(1000);
+
+  }

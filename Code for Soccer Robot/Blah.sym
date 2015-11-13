@@ -1,0 +1,227 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__CLSRMutex1	9	0	0	4	2
+1	__DU0SetSensorLowspeed_inline_main	5	1	4	4	2
+2	__CLSCSMutex1	9	0	8	4	2
+3	__CLSWMutex1	9	0	12	4	2
+4	__signed_stack_001main	6	1	16	4	6
+5	__RLSBmutex1	9	0	20	4	2
+6	__D0main	6	1	24	4	7
+7	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	28	4	2
+8	__D0SetSensorLowspeed_inline_main	6	1	32	4	3
+9	__constVal90	2	0	36	1	1
+10	__zfSetSensorLowspeed_inline_main	1	1	37	1	2
+11	__zfmain	1	1	38	1	3
+12	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	39	1	2
+13	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	40	1	2
+14	__constVal63	2	0	41	1	3
+15	__constVal96	2	0	42	1	3
+16	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	43	1	2
+17	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	44	1	4
+18	____initialize_global_data_return	1	1	45	1	3
+19	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	46	1	2
+20	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	47	1	2
+21	__constVal3	2	0	48	1	3
+22	__constVal0	2	1	49	1	14
+23	__constVal1	2	0	50	1	4
+24	__ResetSensorTmp	1	1	51	1	2
+25	____ResetSensorSubroutine_return	1	1	52	1	3
+26	__ResetSensorPort	1	1	53	1	3
+27	__RLSBytesCount1	1	1	54	1	7
+28	__RLSBIterations1	1	1	55	1	4
+29	__OnRev_Tmp	2	1	56	1	2
+30	____ReadLSBytes1_return	1	1	57	1	3
+31	__constVal32	2	0	58	1	9
+32	__RLSBResult1	2	1	59	1	7
+33	__CLSRArgs1	8	0	4	12	5
+34	__CLSRArgs1.Result	2	1	60	1	5
+35	__CLSRArgs1.Port	1	1	61	1	5
+36	__CLSRArgs1.Buffer	7	0	62	4	5
+37	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+38	__CLSRArgs1.BufferLen	1	1	64	1	5
+39	__CLSWArgs1	8	0	4	12	5
+40	__CLSWArgs1.Result	2	1	68	1	5
+41	__CLSWArgs1.Port	1	1	69	1	5
+42	__CLSWArgs1.Buffer	7	0	70	4	5
+43	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+44	__CLSWArgs1.ReturnLen	1	1	72	1	5
+45	__CLSCSArgs1	8	0	3	4	4
+46	__CLSCSArgs1.Result	2	1	76	1	4
+47	__CLSCSArgs1.Port	1	1	77	1	4
+48	__CLSCSArgs1.BytesReady	1	1	78	1	4
+49	__RLSReadBuf1	7	0	80	4	8
+50	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+51	__RLSLastGoodRead1	7	0	82	4	2
+52	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+53	__RLSBbufLSWrite1	7	0	84	4	1
+54	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	1	0	#line 1 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	2	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	1	2	#line 1 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	1	2	#line 1 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	2	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	1	5	#line 1 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	2	5	#line 2 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	3	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __004__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3694	40	#line 3694 "NXCDefs.h"
+0	3695	40	#pragma macro 4
+0	3695	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5954	44	#line 5954 "NXCDefs.h"
+0	3694	44	#line 3694 "NXCDefs.h"
+0	3761	44	#line 3761 "NXCDefs.h"
+0	2	44	#line 2 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	2	44	#line 2 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	3	44	#pragma macro 26
+0	3	44		acquire __RLSBmutex1
+0	3	45		mov __RLSReadBuf1, __RLSBbufLSWrite1
+0	3	47		set __RLSBytesCount1, 1
+0	3	50		wait 15
+0	3	52		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+0	3	54		index __D0main, __RLSReadBuf1, 65535
+0	3	58		release __RLSBmutex1
+0	5959	59	#line 5959 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	2	59	#line 2 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	3	59		mov __signed_stack_001main, __D0main
+0	3	61	#line 3 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	4	61		set __D0main, 15
+0	3	64	#line 3 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	4	64		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	3	68	#line 3 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	4	68		mov __D0main, __zfmain
+0	4	70	#line 4 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	5	70		brtst 4, __NXC_Label_608, __zfmain
+0	5	73	#line 5 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	6	73		set __signed_stack_001main, 2
+0	6	76	#line 6 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	6	76	#line 6 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	7	76		sub __signed_stack_001main, __signed_stack_001main, __constVal1
+0	6	80	#line 6 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	7	80		brtst 0, __NXC_Label_610, __signed_stack_001main
+0	6	83	#line 6 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	7	83		set __D0main, 90
+0	7	86	#line 7 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	8	86	#pragma macro 7
+0	8	86		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5988	109	#line 5988 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	7	109	#line 7 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	7	109	#line 7 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	8	109		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	7	112	#line 7 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	7921	112	#line 7921 "NXCDefs.h"
+0	7922	112		wait 250
+0	7921	114	#line 7921 "NXCDefs.h"
+0	8	114	#line 8 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	8	114	#line 8 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	9	114	#line 9 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	10	114	#pragma macro 10
+0	10	114		neg __OnRev_Tmp, __constVal90
+0	10	117		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6009	140	#line 6009 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	9	140	#line 9 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	9	140	#line 9 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	10	140		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	9	143	#line 9 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	7921	143	#line 7921 "NXCDefs.h"
+0	7922	143		wait 250
+0	7921	145	#line 7921 "NXCDefs.h"
+0	10	145	#line 10 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	12	145	#line 12 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	13	145		jmp __NXC_Label_609
+0	12	147	#line 12 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	12	147	#line 12 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	13	147	#line 13 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	14	147	#pragma macro 7
+0	14	147		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6028	170	#line 6028 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	13	170	#line 13 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+0	14	170		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5710	0	#pragma macro 25
+2	5710	0		acquire __CLSWMutex1
+2	5710	1		set __CLSWArgs1.Port, 1
+2	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+2	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+2	5710	8		syscall 21, __CLSWArgs1
+2	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+2	5710	13		release __CLSWMutex1
+2	5710	14	#line 5710 "NXTDefs.h"
+2	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+2	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+2	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+2	5714	24		set __RLSBIterations1, 4
+2	5716	27	#pragma macro 23
+2	5716	27		acquire __CLSCSMutex1
+2	5716	28		set __CLSCSArgs1.Port, 1
+2	5716	31		syscall 23, __CLSCSArgs1
+2	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+2	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+2	5716	38		release __CLSCSMutex1
+2	5716	39	#line 5716 "NXTDefs.h"
+2	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+2	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+2	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+2	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+2	5722	52		wait 15
+2	5723	54		jmp __RLSBDoCheckStatus1
+2	5726	56	#pragma macro 25
+2	5726	56		acquire __CLSRMutex1
+2	5726	57		set __CLSRArgs1.Port, 1
+2	5726	60		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+2	5726	62		syscall 22, __CLSRArgs1
+2	5726	65		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+2	5726	67		mov __RLSBResult1, __CLSRArgs1.Result
+2	5726	69		release __CLSRMutex1
+2	5726	70	#line 5726 "NXTDefs.h"
+2	5727	70		brtst 5, __RLSBError1, __RLSBResult1
+2	5728	73		mov __RLSLastGoodRead1, __RLSReadBuf1
+2	5729	75		jmp __RLSBDone1
+2	5731	77		mov __RLSReadBuf1, __RLSLastGoodRead1
+2	5733	79		arrsize __RLSBytesCount1, __RLSReadBuf1
+2	5735	82		subret ____ReadLSBytes1_return
+3	16	0	#line 16 "C:\Users\owner\AppData\Local\Temp\temp.nxc"
+3	17	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\owner\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	173	NXTDefs.h
+2	__ReadLSBytes1	186	NXTDefs.h
+3	__initialize_global_data	270	C:\Users\owner\AppData\Local\Temp\temp.nxc

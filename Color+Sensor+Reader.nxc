@@ -1,0 +1,30 @@
+// This will read the version 1 color sensor,
+//and print the result to the screen.
+
+// There is a jpeg in the Sakai directory that has the
+// Expected Color numbers
+
+
+
+task main(){
+
+  int x;
+
+  // This is the type of sensor.  It is not specfic to
+  // The color sensor but is a low speed I2C connection
+
+  SetSensorType(S1, SENSOR_TYPE_LOWSPEED);
+  TextOut(10,LCD_LINE2,"Color Detected");
+
+  while(true){
+    // This command will return a number from 0-17
+    x=SensorHTColorNum(S1);
+
+    // If you do not have this the 2 digit numbers will
+    //mix with the one digit ones
+    ClearLine(LCD_LINE3);
+
+    NumOut(10,LCD_LINE3,x);
+    Wait(500);
+  }
+}

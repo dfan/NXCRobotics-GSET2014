@@ -1,0 +1,46 @@
+
+task findingrobot()
+{
+PlayTone(932,1000);
+Wait(4000);
+StopSound();
+
+while(true)
+{
+float distance = SensorUS(S1);
+int x = SensorValue(S2);
+int y = SensorValue(S3);
+if (x>25){
+OnFwd(OUT_AC,100);
+Wait(1000);
+}
+if(y>25){
+OnFwd(OUT_AC,-100);
+Wait(1000);
+}
+/*
+else if(x<17)
+{
+OnFwd(OUT_A,100);
+}  */
+
+if (x <= 25 && distance > 50){
+OnFwd(OUT_A,100);    //spinning to find robot
+OnFwd(OUT_C,-100);
+}
+if(x <= 25 && distance <= 50){    //by setting distance to be this far, spinning will definitely find robot
+OnFwd(OUT_AC,-100);
+}
+}
+}
+
+task main()
+{
+SetSensorLowspeed(S1); //S2
+SetSensorUltrasonic(S1);
+//SetSensorType(S2,SENSOR_TYPE_LOWSPEED);
+//SetSensorType(S3,SENSOR_TYPE_LOWSPEED);
+SetSensorLight(S2,S3);
+Precedes(findingrobot);
+}
+

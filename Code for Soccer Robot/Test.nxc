@@ -1,0 +1,7 @@
+task main() {
+     while (true) {
+     OnFwd(OUT_B,-85);
+               OnFwd(OUT_C,85);
+               Wait(5000);
+     }
+}

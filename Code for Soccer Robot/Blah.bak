@@ -1,0 +1,15 @@
+task main(){
+SetSensorLowspeed(IN_2);
+if (SensorUS(IN_2)<15
+	{
+repeat(2)
+{
+OnFwd(OUT_A,90);
+Wait(250);
+OnRev(OUT_A,90);
+Wait(250);
+}
+}
+Off(OUT_A);
+}
+

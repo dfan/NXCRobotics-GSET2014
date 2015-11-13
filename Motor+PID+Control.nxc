@@ -1,0 +1,18 @@
+// This will try and make the robot move as precisly as possible.
+// The regular encorder move is probably good enough
+
+#define P 50
+#define I 50
+#define D 50
+
+task main(){
+
+
+
+
+// RotateMotorExPID("ports", "pwr", "angle", "turnpct", "bsync", "bstop", "p", "i", "d");
+   RotateMotorExPID(OUT_AC,   50  ,  745   ,  0       ,  true  ,  true  , P, I, D);
+   RotateMotorExPID(OUT_AC,   50  ,  176   ,  100       ,  true  ,  true  , P, I, D);
+   RotateMotorExPID(OUT_AC,   50  ,  352   ,  -100       ,  true  ,  true  , P, I, D);
+   }
+

@@ -1,0 +1,64 @@
+task movinguntilsensor(){
+     int dir;  // Store direction
+     // Set Sensor 1 as a low speed
+     SetSensorLowspeed(S1);
+     // Set the sensor mode to match the IR Ball.  1200HX cuts out interference
+     SetHTIRSeeker2Mode(S1, HTIR2_MODE_1200);
+
+     while(true){
+          // Read the sensor value into dir
+          // 0== Not found
+          // 1-9== direction 5 is straight ahead
+          dir=SensorHTIRSeeker2ACDir(S1);
+          if(dir<5){
+               // The 20 is a scaling factor, and the negative gets it to
+               // Steer in the correct direction
+               //OnFwdSync(OUT_BC,75,(5-dir)*-20);   ----(for vertical config.)
+               OnFwd(OUT_B,85);
+               OnFwd(OUT_C,-85);
+         if(dir>5) {
+               // Spin and find the ball
+               //OnFwdSync(OUT_BC,75,100); ----(for vertical config.)
+               OnFwd(OUT_B,-85);
+               OnFwd(OUT_C,85);
+               }
+          else {
+          OnFwd(OUT_BC,0);
+          }
+}
+}
+
+task kick(){
+     SetSensorLowspeed(IN_2);
+     if (SensorUS(IN_2)<15)
+     {
+     repeat(2)
+     {
+          OnFwd(OUT_A,90);
+          Wait(250);
+          OnRev(OUT_A,90);
+          Wait(250);
+     }
+     }
+Off(OUT_A);
+}
+
+task backaway()
+     {
+     SetSensorTouch(IN_3);
+     SetSensorTouch(IN_4);
+
+     if (SENSOR_3 == 1)
+     {
+     OnRev(OUT_BC, 75); Wait(800);
+     }
+     if (SENSOR_4 ==1)
+     {
+     OnRev(OUT_BC, 75); Wait(800);
+     }
+     }
+
+task main(){
+     Precedes(movinguntilsensor, kick, backaway);
+     SetSensorLowspeed(S1); SetSensorLowspeed(IN_2); SetSensorTouch(IN_3); SetSensorTouch(IN_4);
+}

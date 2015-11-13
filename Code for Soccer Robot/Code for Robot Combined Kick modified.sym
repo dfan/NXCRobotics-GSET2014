@@ -1,0 +1,501 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__CLSWMutex0	9	0	0	4	2
+1	__signed_stack_001movinguntilsensor	6	1	4	4	4
+2	__signed_stack_001backaway	6	1	8	4	4
+3	__Wait_7qG2_ms_7qG2_000_inline_backaway	5	1	12	4	2
+4	__CLSCSMutex0	9	0	16	4	4
+5	__CLSCSMutex3	9	0	20	4	2
+6	__RLSBmutex0	9	0	24	4	2
+7	__CLSCSMutex2	9	0	28	4	2
+8	__CLSRMutex0	9	0	32	4	2
+9	__CLSCSMutex1	9	0	36	4	2
+10	__D0movinguntilsensor	6	1	40	4	23
+11	__D0backaway	6	1	44	4	10
+12	__OnRevMutex	9	0	48	4	6
+13	__D0SetSensorLowspeed_inline_main	6	1	52	4	3
+14	__DU0SetSensorLowspeed_inline_main	5	1	56	4	2
+15	__DU0SetSensorLowspeed_inline_movinguntilsensor	5	1	60	4	2
+16	__WDSCmutex	9	0	64	4	2
+17	__ResetSensorMutex	9	0	68	4	12
+18	__D0SetSensorLowspeed_inline_movinguntilsensor	6	1	72	4	3
+19	__movinguntilsensor_7qG2_dir_7qG2_000	4	1	76	2	3
+20	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_movinguntilsensor	1	1	78	1	2
+21	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	79	1	2
+22	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	80	1	2
+23	__zfSetSensorLowspeed_inline_main	1	1	81	1	2
+24	__zfSetSensorLowspeed_inline_movinguntilsensor	1	1	82	1	2
+25	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor	1	1	83	1	4
+26	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	84	1	2
+27	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	85	1	2
+28	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	86	1	4
+29	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	87	1	2
+30	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	88	1	2
+31	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	89	1	8
+32	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	90	1	2
+33	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	91	1	2
+34	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	92	1	2
+35	__constVal73	2	0	93	1	1
+36	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	94	1	2
+37	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor	1	1	95	1	2
+38	__SetSensorTouch_7qG2_port_7qG2_000_inline_backaway	1	1	96	1	8
+39	____initialize_global_data_return	1	1	97	1	3
+40	__constVal96	2	0	98	1	8
+41	__constVal63	2	0	99	1	8
+42	____ReadLSBytes0_return	1	1	100	1	3
+43	____ResetSensorSubroutine_return	1	1	101	1	8
+44	__ResetSensorTmp	1	1	102	1	2
+45	__RLSBIterations0	1	1	103	1	4
+46	__RLSBytesCount0	1	1	104	1	7
+47	__RLSBResult0	2	1	105	1	7
+48	__constVal1	2	0	106	1	10
+49	__constVal32	2	0	107	1	28
+50	__OnRev_Tmp	2	1	108	1	6
+51	__ResetSensorPort	1	1	109	1	8
+52	__constVal3	2	0	110	1	9
+53	__constVal0	2	1	111	1	28
+54	__WDSC_LSStatus	2	1	112	1	3
+55	__WDSC_SensorRegister	1	1	113	1	2
+56	__WDSC_SensorAddress	1	1	114	1	2
+57	____MSWriteBytesSub_return	1	1	115	1	3
+58	__zfmovinguntilsensor	1	1	116	1	8
+59	__zfbackaway	1	1	117	1	6
+60	__constVal16	2	0	118	1	2
+61	__WDSC_Port	1	1	119	1	3
+62	__constVal2	2	0	120	1	3
+63	__WDSC_lswArgs	8	0	4	12	4
+64	__WDSC_lswArgs.Result	2	1	124	1	4
+65	__WDSC_lswArgs.Port	1	1	125	1	4
+66	__WDSC_lswArgs.Buffer	7	0	126	4	4
+67	__WDSC_lswArgs.Buffer.Buffer_type	1	0	0	1	0
+68	__WDSC_lswArgs.ReturnLen	1	1	128	1	4
+69	__CLSWArgs0	8	0	4	12	5
+70	__CLSWArgs0.Result	2	1	132	1	5
+71	__CLSWArgs0.Port	1	1	133	1	5
+72	__CLSWArgs0.Buffer	7	0	134	4	5
+73	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+74	__CLSWArgs0.ReturnLen	1	1	136	1	5
+75	__CLSCSArgs0	8	0	3	4	7
+76	__CLSCSArgs0.Result	2	1	140	1	7
+77	__CLSCSArgs0.Port	1	1	141	1	7
+78	__CLSCSArgs0.BytesReady	1	1	142	1	7
+79	__CLSRArgs0	8	0	4	12	5
+80	__CLSRArgs0.Result	2	1	144	1	5
+81	__CLSRArgs0.Port	1	1	145	1	5
+82	__CLSRArgs0.Buffer	7	0	146	4	5
+83	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+84	__CLSRArgs0.BufferLen	1	1	148	1	5
+85	__OUT_BC	7	0	150	4	3
+86	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+87	__RLSReadBuf0	7	0	152	4	8
+88	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+89	__WDSC_WriteBytes	7	0	154	4	2
+90	__WDSC_WriteBytes.__WDSC_WriteBytes_type	1	0	0	1	0
+91	__RLSLastGoodRead0	7	0	156	4	2
+92	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	65	0	#line 65 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	66	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	65	2	#line 65 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	66	2	#line 66 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	66	2	#line 66 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	66	2	#line 66 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	67	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	66	5	#line 66 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	67	5	#line 67 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	68	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __005__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3761	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	42	#line 3760 "NXCDefs.h"
+0	3694	42	#line 3694 "NXCDefs.h"
+0	3695	42	#pragma macro 4
+0	3695	42		acquire __ResetSensorMutex
+0	3695	43		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main
+0	3695	45		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3695	47		release __ResetSensorMutex
+0	6651	48	#line 6651 "NXCDefs.h"
+0	3694	48	#line 3694 "NXCDefs.h"
+0	3761	48	#line 3761 "NXCDefs.h"
+0	67	48	#line 67 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	67	48	#line 67 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	68	48		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 2
+0	67	51	#line 67 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	3718	51	#line 3718 "NXCDefs.h"
+0	3719	51	#pragma macro 6
+0	3719	51		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	55		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	59		acquire __ResetSensorMutex
+0	3719	60		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	62		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3719	64		release __ResetSensorMutex
+0	6666	65	#line 6666 "NXCDefs.h"
+0	3718	65	#line 3718 "NXCDefs.h"
+0	67	65	#line 67 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	67	65	#line 67 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	68	65		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 3
+0	67	68	#line 67 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	3718	68	#line 3718 "NXCDefs.h"
+0	3719	68	#pragma macro 6
+0	3719	68		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	72		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	76		acquire __ResetSensorMutex
+0	3719	77		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	79		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3719	81		release __ResetSensorMutex
+0	6676	82	#line 6676 "NXCDefs.h"
+0	3718	82	#line 3718 "NXCDefs.h"
+0	68	82	#line 68 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+0	69	82		exit 0, 1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5672	0	#pragma macro 25
+2	5672	0		acquire __CLSWMutex0
+2	5672	1		set __CLSWArgs0.Port, 0
+2	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	5672	8		syscall 21, __CLSWArgs0
+2	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+2	5672	13		release __CLSWMutex0
+2	5673	14	#line 5673 "NXTDefs.h"
+2	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+2	5677	24		set __RLSBIterations0, 4
+2	5679	27	#pragma macro 23
+2	5679	27		acquire __CLSCSMutex0
+2	5679	28		set __CLSCSArgs0.Port, 0
+2	5679	31		syscall 23, __CLSCSArgs0
+2	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+2	5679	38		release __CLSCSMutex0
+2	5679	39	#line 5679 "NXTDefs.h"
+2	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+2	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+2	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	5685	52		wait 15
+2	5686	54		jmp __RLSBDoCheckStatus0
+2	5689	56	#pragma macro 25
+2	5689	56		acquire __CLSRMutex0
+2	5689	57		set __CLSRArgs0.Port, 0
+2	5689	60		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	5689	62		syscall 22, __CLSRArgs0
+2	5689	65		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	5689	67		mov __RLSBResult0, __CLSRArgs0.Result
+2	5689	69		release __CLSRMutex0
+2	5689	70	#line 5689 "NXTDefs.h"
+2	5690	70		brtst 5, __RLSBError0, __RLSBResult0
+2	5691	73		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	5692	75		jmp __RLSBDone0
+2	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	5698	82		subret ____ReadLSBytes0_return
+3	11554	0		mov __WDSC_lswArgs.Port, __WDSC_Port
+3	11555	2		arrbuild __WDSC_lswArgs.Buffer, __WDSC_SensorAddress, __WDSC_SensorRegister, __WDSC_WriteBytes
+3	11556	8		set __WDSC_lswArgs.ReturnLen, 0
+3	11557	11		syscall 21, __WDSC_lswArgs
+3	11559	14	#pragma macro 21
+3	11559	14		acquire __CLSCSMutex0
+3	11559	15		acquire __CLSCSMutex1
+3	11559	16		acquire __CLSCSMutex2
+3	11559	17		acquire __CLSCSMutex3
+3	11559	18		mov __CLSCSArgs0.Port, __WDSC_Port
+3	11559	20		syscall 23, __CLSCSArgs0
+3	11559	23		mov __WDSC_LSStatus, __CLSCSArgs0.Result
+3	11559	25		release __CLSCSMutex0
+3	11559	26		release __CLSCSMutex1
+3	11559	27		release __CLSCSMutex2
+3	11559	28		release __CLSCSMutex3
+3	11559	29	#line 11559 "NXTDefs.h"
+3	11560	29		brtst 1, __WDSC_StatusLoop, __WDSC_LSStatus
+3	11561	32		subret ____MSWriteBytesSub_return
+4	3	0	#line 3 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	4	0		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor, 0
+4	3	3	#line 3 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	5	3	#line 5 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	6	3		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_movinguntilsensor, __constVal1
+4	3758	5	#line 3758 "NXCDefs.h"
+4	3759	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor
+4	3758	7	#line 3758 "NXCDefs.h"
+4	3758	7	#line 3758 "NXCDefs.h"
+4	3759	7		mov __DU0SetSensorLowspeed_inline_movinguntilsensor, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_movinguntilsensor
+4	3758	9	#line 3758 "NXCDefs.h"
+4	3759	9		tst 5, __zfSetSensorLowspeed_inline_movinguntilsensor, __DU0SetSensorLowspeed_inline_movinguntilsensor
+4	3758	12	#line 3758 "NXCDefs.h"
+4	3759	12		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_movinguntilsensor
+4	3758	15	#line 3758 "NXCDefs.h"
+4	3759	15		set __D0SetSensorLowspeed_inline_movinguntilsensor, 11
+4	3758	18	#line 3758 "NXCDefs.h"
+4	3759	18		jmp __004__NXC_Label_37
+4	3758	20	#line 3758 "NXCDefs.h"
+4	3759	20		set __D0SetSensorLowspeed_inline_movinguntilsensor, 10
+4	3758	23	#line 3758 "NXCDefs.h"
+4	3759	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __D0SetSensorLowspeed_inline_movinguntilsensor
+4	3663	25	#line 3663 "NXCDefs.h"
+4	3664	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, 0
+4	3663	29	#line 3663 "NXCDefs.h"
+4	3759	29	#line 3759 "NXCDefs.h"
+4	3759	29	#line 3759 "NXCDefs.h"
+4	3760	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor
+4	3759	31	#line 3759 "NXCDefs.h"
+4	3759	31	#line 3759 "NXCDefs.h"
+4	3760	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, 0
+4	3759	34	#line 3759 "NXCDefs.h"
+4	3676	34	#line 3676 "NXCDefs.h"
+4	3677	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, 1
+4	3676	38	#line 3676 "NXCDefs.h"
+4	3760	38	#line 3760 "NXCDefs.h"
+4	3760	38	#line 3760 "NXCDefs.h"
+4	3761	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_movinguntilsensor
+4	3760	40	#line 3760 "NXCDefs.h"
+4	3694	40	#line 3694 "NXCDefs.h"
+4	3695	40	#pragma macro 4
+4	3695	40		acquire __ResetSensorMutex
+4	3695	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_movinguntilsensor
+4	3695	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	3695	45		release __ResetSensorMutex
+4	6344	46	#line 6344 "NXCDefs.h"
+4	3694	46	#line 3694 "NXCDefs.h"
+4	3761	46	#line 3761 "NXCDefs.h"
+4	5	46	#line 5 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	5	46	#line 5 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	6	46	#pragma macro 8
+4	6	46		acquire __WDSCmutex
+4	6	47		mov __WDSC_Port, __constVal0
+4	6	49		mov __WDSC_SensorAddress, __constVal16
+4	6	51		set __WDSC_SensorRegister, 65
+4	6	54		arrbuild __WDSC_WriteBytes, __constVal0
+4	6	58		subcall __MSWriteBytesSub, ____MSWriteBytesSub_return
+4	6	60		mov __D0movinguntilsensor, __WDSC_LSStatus
+4	6	62		release __WDSCmutex
+4	6349	63	#line 6349 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	5	63	#line 5 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	5	63	#line 5 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	7	63	#line 7 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	8	63		set __D0movinguntilsensor, 1
+4	11	66	#line 11 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	12	66		tst 5, __zfmovinguntilsensor, __D0movinguntilsensor
+4	11	69	#line 11 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	12	69		brtst 4, __NXC_Label_607, __zfmovinguntilsensor
+4	11	72	#line 11 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	12	72	#pragma macro 24
+4	12	72		acquire __RLSBmutex0
+4	12	73		arrbuild __RLSReadBuf0, __constVal16, __constVal73
+4	12	78		set __RLSBytesCount0, 1
+4	12	81		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+4	12	83		index __D0movinguntilsensor, __RLSReadBuf0, 65535
+4	12	87		release __RLSBmutex0
+4	6362	88	#line 6362 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	11	88	#line 11 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	12	88		mov __movinguntilsensor_7qG2_dir_7qG2_000, __D0movinguntilsensor
+4	11	90	#line 11 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	11	90	#line 11 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	12	90	#line 12 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	13	90		set __D0movinguntilsensor, 90
+4	14	93	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	15	93	#pragma macro 10
+4	15	93		acquire __OnRevMutex
+4	15	94		neg __OnRev_Tmp, __D0movinguntilsensor
+4	15	97		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	15	120		release __OnRevMutex
+4	6374	121	#line 6374 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	14	121	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	14	121	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	15	121		mov __signed_stack_001movinguntilsensor, __movinguntilsensor_7qG2_dir_7qG2_000
+4	14	123	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	14	123	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	15	123		set __D0movinguntilsensor, 5
+4	14	126	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	15	126		cmp 0, __zfmovinguntilsensor, __signed_stack_001movinguntilsensor, __D0movinguntilsensor
+4	14	130	#line 14 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	15	130		mov __D0movinguntilsensor, __zfmovinguntilsensor
+4	18	132	#line 18 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	19	132		brtst 4, __NXC_Label_616, __zfmovinguntilsensor
+4	18	135	#line 18 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	19	135		set __D0movinguntilsensor, 95
+4	19	138	#line 19 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	20	138	#pragma macro 7
+4	20	138		setout __constVal2, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6395	161	#line 6395 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	19	161	#line 19 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	19	161	#line 19 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	20	161		set __D0movinguntilsensor, -95
+4	21	164	#line 21 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	22	164	#pragma macro 7
+4	22	164		setout __constVal1, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6402	187	#line 6402 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	21	187	#line 21 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	22	187	#line 22 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	23	187		jmp __NXC_Label_621
+4	22	189	#line 22 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	23	189		mov __signed_stack_001movinguntilsensor, __movinguntilsensor_7qG2_dir_7qG2_000
+4	22	191	#line 22 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	22	191	#line 22 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	23	191		set __D0movinguntilsensor, 5
+4	22	194	#line 22 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	23	194		cmp 1, __zfmovinguntilsensor, __signed_stack_001movinguntilsensor, __D0movinguntilsensor
+4	22	198	#line 22 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	23	198		mov __D0movinguntilsensor, __zfmovinguntilsensor
+4	25	200	#line 25 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	26	200		brtst 4, __NXC_Label_624, __zfmovinguntilsensor
+4	25	203	#line 25 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	26	203		set __D0movinguntilsensor, 95
+4	26	206	#line 26 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	27	206	#pragma macro 7
+4	27	206		setout __constVal1, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6426	229	#line 6426 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	26	229	#line 26 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	26	229	#line 26 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	27	229		set __D0movinguntilsensor, -95
+4	27	232	#line 27 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	28	232	#pragma macro 7
+4	28	232		setout __constVal2, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6433	255	#line 6433 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	27	255	#line 27 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	29	255	#line 29 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	30	255		jmp __NXC_Label_629
+4	29	257	#line 29 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	30	257		set __D0movinguntilsensor, 0
+4	30	260	#line 30 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	31	260	#pragma macro 7
+4	31	260		setout __OUT_BC, 2, __D0movinguntilsensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6443	283	#line 6443 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	30	283	#line 30 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	32	283	#line 32 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	32	283	#line 32 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	49	283	#line 49 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	50	283		jmp __NXC_Label_606
+4	49	285	#line 49 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+4	50	285		exit -1, -1
+5	51	0	#line 51 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	52	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 2
+5	51	3	#line 51 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	3718	3	#line 3718 "NXCDefs.h"
+5	3719	3	#pragma macro 6
+5	3719	3		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 0
+5	3719	7		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 1
+5	3719	11		acquire __ResetSensorMutex
+5	3719	12		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway
+5	3719	14		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	3719	16		release __ResetSensorMutex
+5	6467	17	#line 6467 "NXCDefs.h"
+5	3718	17	#line 3718 "NXCDefs.h"
+5	52	17	#line 52 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	52	17	#line 52 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	53	17		set __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 3
+5	52	20	#line 52 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	3718	20	#line 3718 "NXCDefs.h"
+5	3719	20	#pragma macro 6
+5	3719	20		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 0
+5	3719	24		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway, 1
+5	3719	28		acquire __ResetSensorMutex
+5	3719	29		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_backaway
+5	3719	31		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	3719	33		release __ResetSensorMutex
+5	6477	34	#line 6477 "NXCDefs.h"
+5	3718	34	#line 3718 "NXCDefs.h"
+5	54	34	#line 54 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	54	34	#line 54 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	55	34		getin __signed_stack_001backaway, __constVal2, 4
+5	54	38	#line 54 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	55	38	#line 55 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	56	38		set __D0backaway, 1
+5	55	41	#line 55 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	56	41		cmp 4, __zfbackaway, __signed_stack_001backaway, __D0backaway
+5	55	45	#line 55 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	56	45		mov __D0backaway, __zfbackaway
+5	56	47	#line 56 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	57	47		brtst 4, __NXC_Label_638, __zfbackaway
+5	56	50	#line 56 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	57	50		set __D0backaway, 75
+5	56	53	#line 56 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	57	53	#pragma macro 10
+5	57	53		acquire __OnRevMutex
+5	57	54		neg __OnRev_Tmp, __D0backaway
+5	57	57		setout __OUT_BC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	57	80		release __OnRevMutex
+5	6499	81	#line 6499 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	56	81	#line 56 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	56	81	#line 56 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	57	81		set __Wait_7qG2_ms_7qG2_000_inline_backaway, 800
+5	56	84	#line 56 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	7921	84	#line 7921 "NXCDefs.h"
+5	7922	84		wait 800
+5	7921	86	#line 7921 "NXCDefs.h"
+5	57	86	#line 57 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	58	86	#line 58 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	58	86	#line 58 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	59	86		getin __signed_stack_001backaway, __constVal3, 4
+5	58	90	#line 58 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	59	90	#line 59 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	60	90		set __D0backaway, 1
+5	59	93	#line 59 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	60	93		cmp 4, __zfbackaway, __signed_stack_001backaway, __D0backaway
+5	59	97	#line 59 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	60	97		mov __D0backaway, __zfbackaway
+5	60	99	#line 60 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	61	99		brtst 4, __NXC_Label_645, __zfbackaway
+5	60	102	#line 60 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	61	102		set __D0backaway, 75
+5	60	105	#line 60 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	61	105	#pragma macro 10
+5	61	105		acquire __OnRevMutex
+5	61	106		neg __OnRev_Tmp, __D0backaway
+5	61	109		setout __OUT_BC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	61	132		release __OnRevMutex
+5	6536	133	#line 6536 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	60	133	#line 60 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	60	133	#line 60 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	61	133		set __Wait_7qG2_ms_7qG2_000_inline_backaway, 800
+5	60	136	#line 60 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	7921	136	#line 7921 "NXCDefs.h"
+5	7922	136		wait 800
+5	7921	138	#line 7921 "NXCDefs.h"
+5	61	138	#line 61 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	64	138	#line 64 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+5	65	138		exit -1, -1
+6	71	0	#line 71 "F:\Research Lab Projects\2014 NJ Governor's School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc"
+6	72	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	F:\Research Lab Projects\2014 NJ Governors School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc
+1	__ResetSensorSubroutine	85	NXTDefs.h
+2	__ReadLSBytes0	98	NXTDefs.h
+3	__MSWriteBytesSub	182	NXTDefs.h
+4	movinguntilsensor	216	F:\Research Lab Projects\2014 NJ Governors School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc
+5	backaway	504	F:\Research Lab Projects\2014 NJ Governors School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc
+6	__initialize_global_data	645	F:\Research Lab Projects\2014 NJ Governors School of Engineering and Technology\Robotics\Code for Actual Robot\Code for Robot Combined Kick modified.nxc

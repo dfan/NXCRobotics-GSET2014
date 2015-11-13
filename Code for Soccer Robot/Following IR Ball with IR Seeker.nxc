@@ -1,0 +1,29 @@
+// Will chase the IR ball
+
+
+task main(){
+  int dir;  // Store direction
+
+  // Set Sensor 3 as a lowspeed
+  SetSensorLowspeed(S2);
+  // Set the sensor mode to match the IR Ball.  1200HX cuts out interferance
+  SetHTIRSeeker2Mode(S2, HTIR2_MODE_1200);
+
+
+  while(true){
+    // Read the sensor value into dir
+    // 0== Not found
+    // 1-9== direction 5 is straight ahead
+    dir=SensorHTIRSeeker2ACDir(S2);
+    if(dir>1){
+       // The 20 is a scaling factor, and the negative gets it to
+       // Steer in the correct direction
+       OnFwdSync(OUT_BC,75,(5-dir)*-20);
+    } else {
+       // Spin and find the ball
+       OnFwdSync(OUT_BC,75,100);
+    }
+
+  }
+
+}
